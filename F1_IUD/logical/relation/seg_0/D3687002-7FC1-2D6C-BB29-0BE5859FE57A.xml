@@ -1,18 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="BFBA14A5-00B2-6077-5952-8D7929741E31">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_17" directorySegmentName="seg_0" id="D3687002-7FC1-2D6C-BB29-0BE5859FE57A">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-11 21:15:15 UTC</createdTime>
+<createdTime>2022-03-11 22:55:52 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
-<sourcePk>4944E8A6-66BF-5E6D-2A04-5C5B0E089DC0</sourcePk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>A81868F8-9299-08EE-B424-0B645A700D42</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<sourceEntity>D492DB9A-2EA7-16A0-BE5B-794184DBF804</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>3D9383E8-6F84-6BE0-5E21-675BBE4964CB</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

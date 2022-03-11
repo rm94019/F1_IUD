@@ -14,4 +14,75 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_VIDEO" id="ACB14E49-4308-1AE8-48CC-DD8BAEB6603C">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 22:59:46 UTC</createdTime>
+<generatorID>F4DC6CB0-8808-EA1A-D34B-15D12694888F</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<referedAttribute>CFF6D3BD-CB34-6885-6AEC-D492328AE2ED</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_VIEW" id="1789A4E3-6D5E-E3C4-6C21-3E7CC6456765">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:05:42 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_VISITA" id="6A4B49AB-3B8E-69EA-1149-4156A4A140A3">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:05:48 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CAD_CLIENTE" id="55BC6FBE-9CC0-DC20-4F91-9BB6D5BDBFC1">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:05:56 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CADASTRO" id="6E514443-A935-ACC9-9CB4-367F6A55FF3C">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:06:38 UTC</createdTime>
+<generatorID>3B48C547-5DF4-CAF2-6E4B-A04DA17D94B9</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<referedAttribute>21C776A9-3675-2409-273F-13B35B0FC003</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PRODUTO" id="2FE33DF8-898A-705A-4209-A5E16D092AA0">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:07:18 UTC</createdTime>
+<generatorID>BBBE4CAC-C2C1-5D55-A82F-26B2A8424BB1</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<referedAttribute>2E126F38-5B30-7C83-A755-C87A76631B72</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

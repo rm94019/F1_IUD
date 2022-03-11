@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D241A12-C127-F700-8A52-086634D0C166" name="TC_IUD_CAT_VIDEO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D241A12-C127-F700-8A52-086634D0C166" name="TC_IUD_CAT_PROD">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 21:10:39 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
@@ -14,4 +14,86 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_CAT" id="29897DB6-822B-D680-5BD2-E10BA2B40F36">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:00:57 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESC_CAT" id="D6B89B28-CBC6-14E6-3B43-6482ED3FEFD6">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:00:58 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_CAT" id="0B636C49-27D7-FFF0-D623-96BDFC542757">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:01:22 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="B505BC1A-152F-0559-4540-E6B112E96028">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:01:33 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TERMINO" id="2C8FA00D-098D-104B-0275-725C1336755D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:01:33 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_PRODUTO" id="F810D343-68FC-ED7E-B4A3-13C117725F33">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:03:24 UTC</createdTime>
+<generatorID>B34B40DA-D4D9-599B-3DFA-FFCB55617E8F</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<referedAttribute>2E126F38-5B30-7C83-A755-C87A76631B72</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A49AE51-DF33-2DB9-B6E7-2BB898DDE1CF" name="TC_IUD_CAT_PROD PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 23:04:56 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29897DB6-822B-D680-5BD2-E10BA2B40F36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

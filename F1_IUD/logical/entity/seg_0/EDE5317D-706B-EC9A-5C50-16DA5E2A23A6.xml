@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E103201-95E8-811E-C15D-3EA061879641" name="TC_IUD_PRODUTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDE5317D-706B-EC9A-5C50-16DA5E2A23A6" name="TC_IUD_CADASTRO">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-11 21:10:06 UTC</createdTime>
+<createdTime>2022-03-11 22:23:22 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_PRODUTO" id="2E126F38-5B30-7C83-A755-C87A76631B72">
+<Attribute name="COD_CADASTRO" id="21C776A9-3675-2409-273F-13B35B0FC003">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-11 22:59:50 UTC</createdTime>
+<createdTime>2022-03-11 22:42:17 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
@@ -25,20 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NM_PRODUTO" id="8C5AA027-56A0-4A77-E80E-C1672693A82A">
+<Attribute name="NM_NOME" id="5B068BAE-63B5-FC09-5DFB-61A3A3D59A60">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-11 22:59:50 UTC</createdTime>
-<ownerDesignName>F1_IUD</ownerDesignName>
-<engineerTo>
-<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ST_PRODUTO" id="58BCFBFC-84CD-195A-2AFF-C00A1B75CD92">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-11 22:59:50 UTC</createdTime>
+<createdTime>2022-03-11 22:42:17 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
@@ -47,9 +36,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESC_PRODUTO" id="6A99DF18-F1B5-55F2-C79B-667936BDAE4B">
+<Attribute name="DDD_TEL" id="1169B497-41A3-8F03-01C2-5FA54886C9BA">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-11 22:59:50 UTC</createdTime>
+<createdTime>2022-03-11 22:42:17 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
@@ -58,9 +47,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_BARRAS" id="AFAB794F-B9D9-8B27-2BFC-88FB8BD31972">
+<Attribute name="DT_NASC" id="4648EAAA-4C65-C231-EC63-26B998FCDD53">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-11 23:00:19 UTC</createdTime>
+<createdTime>2022-03-11 22:42:17 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
@@ -69,9 +58,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="VLR_UN" id="DCC56CC6-B5A0-68F9-D6AB-EB6C11B798CF">
+<Attribute name="EMAIL" id="10625EE5-6A61-C811-E7AE-95CCFD83EA3F">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-11 23:00:25 UTC</createdTime>
+<createdTime>2022-03-11 22:42:17 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
@@ -82,16 +71,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="718B8149-DDBE-4F15-7A08-33F6157CDD46" name="TC_IUD_PRODUTO PK">
+<identifier id="AEFB541B-D6DB-A042-CC97-A9532C7F3018" name="TC_IUD_CADASTRO PK">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-11 23:03:23 UTC</createdTime>
+<createdTime>2022-03-11 22:43:13 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2E126F38-5B30-7C83-A755-C87A76631B72</attributeRef>
+<attributeRef>21C776A9-3675-2409-273F-13B35B0FC003</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
