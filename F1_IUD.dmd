@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="F1_IUD" id="98BB87AD-B523-C53C-A54E-249C8A478AE0" version="3.5">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 21:07:37 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>98BB87AD-B523-C53C-A54E-249C8A478AE0</designId>
+</OSDM_Design>

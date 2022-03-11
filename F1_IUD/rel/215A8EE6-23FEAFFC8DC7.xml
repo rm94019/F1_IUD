@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" mainViewID="C04E4A7C-101A-57D0-E98E-DA0509A650DB">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 21:07:43 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

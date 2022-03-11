@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_5" directorySegmentName="seg_0" id="87599618-E392-FCD5-D535-2FEE20AFEB84">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-11 21:13:26 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4E103201-95E8-811E-C15D-3EA061879641</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5F9F1778-F749-66CA-622A-BB1F8E8AD313</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
