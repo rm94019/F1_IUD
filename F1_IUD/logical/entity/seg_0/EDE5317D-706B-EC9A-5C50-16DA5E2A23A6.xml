@@ -4,7 +4,7 @@
 <createdTime>2022-03-11 22:23:22 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,10 +20,11 @@
 <createdTime>2022-03-11 22:42:17 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NM_NOME" id="5B068BAE-63B5-FC09-5DFB-61A3A3D59A60">
@@ -31,33 +32,39 @@
 <createdTime>2022-03-11 22:42:17 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>155</dataTypeSize>
+<ownDataTypeParameters>155,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DDD_TEL" id="1169B497-41A3-8F03-01C2-5FA54886C9BA">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:42:17 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DT_NASC" id="4648EAAA-4C65-C231-EC63-26B998FCDD53">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:42:17 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="EMAIL" id="10625EE5-6A61-C811-E7AE-95CCFD83EA3F">
@@ -65,11 +72,14 @@
 <createdTime>2022-03-11 22:42:17 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -78,7 +88,7 @@
 <createdTime>2022-03-11 22:43:13 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

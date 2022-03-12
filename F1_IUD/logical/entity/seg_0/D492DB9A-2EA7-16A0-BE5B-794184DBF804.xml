@@ -3,6 +3,9 @@
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 21:09:32 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:50:47 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -24,8 +30,25 @@
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:50:55 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_CADASTRO" id="353E08A2-2CE7-9158-C752-49260711BD84">
+<createdBy>ricardo</createdBy>
+<createdTime>2022-03-12 15:10:38 UTC</createdTime>
+<generatorID>D2F9D890-B72B-BE0D-3E3C-DE0F3B86E7DD</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<referedAttribute>21C776A9-3675-2409-273F-13B35B0FC003</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
