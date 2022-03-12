@@ -3,9 +3,6 @@
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 21:09:32 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<engineerTo>
-<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -15,25 +12,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_CADASTRO" id="B7211F6F-FEF8-EC87-98FE-E454A2DEEAFF">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-11 22:43:15 UTC</createdTime>
-<generatorID>4C6F36A0-0DB3-065B-0301-C3031FB87BF2</generatorID>
-<ownerDesignName>F1_IUD</ownerDesignName>
-<engineerTo>
-<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
-</engineerTo>
-<referedAttribute>21C776A9-3675-2409-273F-13B35B0FC003</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="CARGO" id="8232D789-8D36-4AF0-6B35-31CDCB4EABBB">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:50:47 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<engineerTo>
-<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -42,9 +24,6 @@
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:50:55 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<engineerTo>
-<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
