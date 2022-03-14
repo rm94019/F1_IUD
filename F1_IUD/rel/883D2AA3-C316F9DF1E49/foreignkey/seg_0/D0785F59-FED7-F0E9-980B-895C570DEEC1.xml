@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D0785F59-FED7-F0E9-980B-895C570DEEC1" containerWithKeyObject="61327B54-A69E-2CED-43E7-74400625906B" localFKIndex="C47483DE-BF8B-B274-8899-C1E2F7EBAF63" name="T_IUD_TIPO_CHAMADO_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-14 11:44:54 UTC</createdTime>
+<generatorID>75BE36F0-6F94-6B73-7FE7-1A288BB87153</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<referredTableLongName>T_IUD_TIPO_CHAMADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BF407EDC-A30D-B9A8-A095-F655FDA5C9FF</referredTableID>
+<keyObject>B258B1A1-5EC2-C277-AEA5-596FE060D81F</keyObject>
+<referredKeyID>B258B1A1-5EC2-C277-AEA5-596FE060D81F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_TIPO_CHAM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

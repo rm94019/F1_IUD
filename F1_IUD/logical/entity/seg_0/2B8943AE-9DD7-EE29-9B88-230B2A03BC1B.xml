@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B8943AE-9DD7-EE29-9B88-230B2A03BC1B" name="T_IUD_TIPO_CHAMADO">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:39:01 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_TIPO_CHAM" id="76F0DB1D-DE96-ADDB-67D7-1A946B799E21">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:39:16 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_CHAMADO" id="9B7DEF02-7CF8-1A16-196C-4F73EEC19235">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:39:56 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47AF6BBE-83CC-7FF3-E9AE-39081ED68476" name="TC_IUD_TIPO_CHAMADO PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:39:42 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76F0DB1D-DE96-ADDB-67D7-1A946B799E21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

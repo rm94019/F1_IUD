@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="973BF8B6-725A-CEAD-D92B-5D01ABC4A382" name="T_IUD_DEPARTAMENTO">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:57:52 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="23335D08-0C96-B57A-3B40-9EEE788494F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_DP" id="29D404F3-7EB5-A9FF-06C6-6D180DCD2943">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:57:52 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="23335D08-0C96-B57A-3B40-9EEE788494F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_DP" id="B92EB652-F204-0434-03E8-7D730E9B22B4">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:57:52 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="23335D08-0C96-B57A-3B40-9EEE788494F4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E7246DC3-347C-A7FF-6D99-8998A9F914A4" name="TC_IUD_CARGOS PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:57:52 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="23335D08-0C96-B57A-3B40-9EEE788494F4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29D404F3-7EB5-A9FF-06C6-6D180DCD2943</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

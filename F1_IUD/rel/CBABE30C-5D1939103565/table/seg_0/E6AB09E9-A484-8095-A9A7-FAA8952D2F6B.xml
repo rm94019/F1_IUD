@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6AB09E9-A484-8095-A9A7-FAA8952D2F6B" name="T_IUD_STATUS_PROD">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>8F73D8C9-897E-ED21-7F3A-EBD74EDD9ECB</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<beforeDrop><![CDATA[INSERT INTO  {table} (cod_status_produto,ds_status) VALUES ('A','ATIVO');
+INSERT INTO  {table} (cod_status_produto,ds_status) VALUES ('I','INATIVO');
+INSERT INTO  {table} (cod_status_produto,ds_status) VALUES ('P','PROSPECÇÃO');]]></beforeDrop>
+<shouldGeneratescript>true</shouldGeneratescript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_STATUS_PRODUTO" id="76C34CD6-53C5-6DA6-99FF-0C526C8BE994">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[I: inativo, P: prospeccao, A: Ativo]]></commentInRDBMS>
+<generatorID>FE9A0899-0CCC-696D-A983-DD719411CEF0</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_STATUS" id="0D5280E7-0399-4329-090D-B5BD664E26DD">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[I: inativo, P: prospeccao, A: Ativo]]></commentInRDBMS>
+<generatorID>B41EC1D1-FD96-9061-113E-C8303CEECF04</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A9B7A83-CBB9-9E24-36B6-D6210EE74B7B" name="T_IUD_STATUS_PROD_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>60B993B0-CC60-7DCA-4ABF-BE695238AACC</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76C34CD6-53C5-6DA6-99FF-0C526C8BE994"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,11 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCECBF91-6A04-F4F8-AC76-6D78F15EC433" name="TC_IUD_TIPO_CLI">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCECBF91-6A04-F4F8-AC76-6D78F15EC433" name="T_IUD_TIPO_CLIENTE">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:38:33 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="C129E277-0EE1-32DE-2540-096D970B6000" value="true"/>
-<item key="11D08A96-2569-C0D8-413E-6789D5A25225" value="true"/>
+<item key="3178E390-9E6F-6828-47FF-2A41504DE6B2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,10 +20,11 @@
 <createdTime>2022-03-11 22:41:25 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="C129E277-0EE1-32DE-2540-096D970B6000" value="true"/>
-<item key="11D08A96-2569-C0D8-413E-6789D5A25225" value="true"/>
+<item key="3178E390-9E6F-6828-47FF-2A41504DE6B2" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DS_TIPO" id="00095DB0-7603-A6F3-0C29-E09055EAB385">
@@ -32,23 +32,26 @@
 <createdTime>2022-03-11 22:41:33 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="C129E277-0EE1-32DE-2540-096D970B6000" value="true"/>
-<item key="11D08A96-2569-C0D8-413E-6789D5A25225" value="true"/>
+<item key="3178E390-9E6F-6828-47FF-2A41504DE6B2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ST_ATACADO" id="B01FADFC-8AED-E4B6-66E0-B00CD46A82B0">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:41:34 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="C129E277-0EE1-32DE-2540-096D970B6000" value="true"/>
-<item key="11D08A96-2569-C0D8-413E-6789D5A25225" value="true"/>
+<item key="3178E390-9E6F-6828-47FF-2A41504DE6B2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -58,8 +61,7 @@
 <createdTime>2022-03-11 22:43:22 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="C129E277-0EE1-32DE-2540-096D970B6000" value="true"/>
-<item key="11D08A96-2569-C0D8-413E-6789D5A25225" value="true"/>
+<item key="3178E390-9E6F-6828-47FF-2A41504DE6B2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

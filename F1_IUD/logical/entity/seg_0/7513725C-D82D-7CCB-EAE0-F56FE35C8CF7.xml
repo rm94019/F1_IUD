@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7513725C-D82D-7CCB-EAE0-F56FE35C8CF7" name="T_IUD_CAT_VIDEO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7513725C-D82D-7CCB-EAE0-F56FE35C8CF7" name="T_IUD_CATEGORIA_VIDEO">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 23:04:09 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +21,12 @@
 <createdTime>2022-03-11 23:04:25 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NM_CAT_VIDEO" id="C08EB21D-8D0B-AE9A-D8D1-1AFDB5234306">
@@ -30,11 +34,15 @@
 <createdTime>2022-03-11 23:04:32 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -43,7 +51,8 @@
 <createdTime>2022-03-11 23:04:31 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

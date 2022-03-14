@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_CADASTRO_CARGO" directorySegmentName="seg_0" id="FF0B99D7-7A12-421F-B517-DFF176F3FE4B">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 16:07:50 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="23335D08-0C96-B57A-3B40-9EEE788494F4" value="true"/>
+</engineerTo>
+<sourcePk>FB54BB62-FBD4-DB42-C532-A2FFC0F4A901</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0C809AC5-62A2-7DB3-1960-FBCBA5CA5D70</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EDE5317D-706B-EC9A-5C50-16DA5E2A23A6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

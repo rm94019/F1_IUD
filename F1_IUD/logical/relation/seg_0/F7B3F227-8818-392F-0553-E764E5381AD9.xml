@@ -1,17 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="F7B3F227-8818-392F-0553-E764E5381AD9">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_CLIENTE_TIPO_CLIENTE" directorySegmentName="seg_0" id="F7B3F227-8818-392F-0553-E764E5381AD9">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:48:59 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<engineerTo>
-<item key="C129E277-0EE1-32DE-2540-096D970B6000" value="true"/>
-<item key="11D08A96-2569-C0D8-413E-6789D5A25225" value="true"/>
-</engineerTo>
+<sourcePk>C7F7B2E4-6BC6-3B18-1A43-8717B263A7FA</sourcePk>
 <targetPk>3E22203E-29EE-1B35-50ED-D89B71D30467</targetPk>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>F3E92689-EE94-5713-9926-90553F8774B8</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>
 <targetEntity>DCECBF91-6A04-F4F8-AC76-6D78F15EC433</targetEntity>

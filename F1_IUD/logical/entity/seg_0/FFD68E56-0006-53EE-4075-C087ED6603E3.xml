@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFD68E56-0006-53EE-4075-C087ED6603E3" name="T_IUD_GENERO_CLI">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:52:46 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_GENERO" id="83CEA2CB-8AB4-30A7-750A-298591797728">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:52:56 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_GENERO" id="58CBDCE1-62F5-06EF-C3A3-6C2A817FB2E7">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:53:10 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="167C8471-596E-2AB1-0F55-90E2D4055005" name="TC_IUD_GENERO_CLI PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 15:53:08 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83CEA2CB-8AB4-30A7-750A-298591797728</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

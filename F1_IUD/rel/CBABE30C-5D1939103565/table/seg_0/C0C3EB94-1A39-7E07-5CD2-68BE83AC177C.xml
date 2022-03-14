@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0C3EB94-1A39-7E07-5CD2-68BE83AC177C" name="T_IUD_TIPO_CLIENTE">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>DCECBF91-6A04-F4F8-AC76-6D78F15EC433</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<afterCreate><![CDATA[INSERT INTO  {table} (ds_tipo) VALUES ('PF');
+INSERT INTO  {table} (ds_tipo) VALUES ('PJ');
+
+]]></afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_TIPO" id="332E4A84-4E74-C447-C70C-B3ED6920356A">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>2F1B3C61-475B-318B-1C1E-AFCD9A61C827</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_TIPO" id="BCC5E859-7BE3-3755-0017-26E644C4B190">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>00095DB0-7603-A6F3-0C29-E09055EAB385</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D96ED9A-349D-84A2-7CD9-3476CCD562FB" name="T_IUD_TIPO_CLIENTE_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>3E22203E-29EE-1B35-50ED-D89B71D30467</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="332E4A84-4E74-C447-C70C-B3ED6920356A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

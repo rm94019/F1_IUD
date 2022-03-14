@@ -1,15 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="15B1D593-D481-4052-26BA-4A59A8425396">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_PRODUTO_VIDEO" directorySegmentName="seg_0" id="15B1D593-D481-4052-26BA-4A59A8425396">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 21:12:42 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<engineerTo>
-<item key="C129E277-0EE1-32DE-2540-096D970B6000" value="true"/>
-<item key="11D08A96-2569-C0D8-413E-6789D5A25225" value="true"/>
-</engineerTo>
 <sourcePk>718B8149-DDBE-4F15-7A08-33F6157CDD46</sourcePk>
-<identifying>true</identifying>
-<optionalSource>true</optionalSource>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>4E103201-95E8-811E-C15D-3EA061879641</sourceEntity>

@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E103201-95E8-811E-C15D-3EA061879641" name="TC_IUD_PRODUTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E103201-95E8-811E-C15D-3EA061879641" name="T_IUD_PRODUTO">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 21:10:06 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +21,12 @@
 <createdTime>2022-03-11 22:59:50 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NM_PRODUTO" id="8C5AA027-56A0-4A77-E80E-C1672693A82A">
@@ -30,32 +34,28 @@
 <createdTime>2022-03-11 22:59:50 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ST_PRODUTO" id="58BCFBFC-84CD-195A-2AFF-C00A1B75CD92">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-11 22:59:50 UTC</createdTime>
-<ownerDesignName>F1_IUD</ownerDesignName>
-<engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DESC_PRODUTO" id="6A99DF18-F1B5-55F2-C79B-667936BDAE4B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:59:50 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_BARRAS" id="AFAB794F-B9D9-8B27-2BFC-88FB8BD31972">
@@ -63,22 +63,31 @@
 <createdTime>2022-03-11 23:00:19 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="VLR_UN" id="DCC56CC6-B5A0-68F9-D6AB-EB6C11B798CF">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 23:00:25 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_CAT" id="B879E529-1A16-0C2B-639C-648DCA829EB7">
 <createdBy>gamer</createdBy>
@@ -86,10 +95,28 @@
 <generatorID>B34B40DA-D4D9-599B-3DFA-FFCB55617E8F</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
 <referedAttribute>29897DB6-822B-D680-5BD2-E10BA2B40F36</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_STATUS_PROD" id="162A01F9-CD14-6469-3B1E-C3E5908170D7">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 16:17:01 UTC</createdTime>
+<generatorID>2641F651-3346-C8D5-2435-1BD8E997640D</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+</engineerTo>
+<referedAttribute>FE9A0899-0CCC-696D-A983-DD719411CEF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -99,7 +126,8 @@
 <createdTime>2022-03-11 23:03:23 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="AA743C8A-FB6C-1CCB-EEE6-23750E2A3F6F" value="true"/>
+<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

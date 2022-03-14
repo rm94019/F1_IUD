@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95300920-E83E-297D-DCDB-9013C37DC8C8" name="T_IUD_CHAMADO">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>A81868F8-9299-08EE-B424-0B645A700D42</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CHAMADO" id="C1374FA7-D2C3-3316-F343-4E2E6C19CE11">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>86ECBF1A-4F98-249C-B9C7-3AC6B1D7189B</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_CHAMADO" id="1B3B6FBD-7B0B-3E95-C78C-EAEE69750215">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>67890216-CBE6-D822-A05D-416313307380</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_CHAMDO" id="6CF81C6A-A96A-1133-6343-9E0D82EA6301">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>8E2C36F4-60D0-3373-5FBE-14114032A530</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_ABERTURA" id="C9C1262E-24E6-C85F-89CD-20B344543558">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>DD152BD1-2ECF-0E1C-F396-0190BF595A2C</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FECHAMENTO" id="2178FBC9-C0E9-51C2-F5E9-45A0EDDDE4A4">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>560B03F0-FC92-6439-CC46-5FD295413C9C</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HS_CHAMADO" id="B4BE0B00-23D7-A0A7-44AA-0C88AD57D733">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>3D093C54-784E-A15E-46EC-3108343A3A51</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_CADASTRO" id="0B1DBF6D-1659-8FE8-B283-42AB47EAEC2D">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>FDD6A808-2CD0-2ADF-B987-CF99D344C4BA</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5C73F4C-32C9-2FF6-F6B7-3311D6BE09EB" referredColumn="D2A161FF-8747-4074-07F8-BD49DAFD62F7"/>
+</associations>
+</Column>
+<Column name="COD_TIPO_CHAMADO" id="8B30849C-3739-12F7-F93A-5D9F03BEAAA0">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>F1A415AC-A3D6-8B9B-6C32-F666ACB8B9BE</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49983CF6-B869-9BBD-C8C9-DEC4285C89F9" referredColumn="BFE43351-6712-BF4E-DADB-8B284038FC5F"/>
+</associations>
+</Column>
+<Column name="COD_RESOLUCAO" id="EAFA30EB-F2C7-73BB-104D-9AF275ABFB20">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>82F71E9A-9E32-A838-F387-DEA7F7AB4C29</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B0D30E1-ABA2-47B2-68DA-12AD84AE7F5B" referredColumn="F689009F-045A-98B5-F154-7A8102212959"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="549AA609-529D-826A-F740-FE5D9154877B" name="T_IUD_CHAMADO_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>4944E8A6-66BF-5E6D-2A04-5C5B0E089DC0</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1374FA7-D2C3-3316-F343-4E2E6C19CE11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BFCA51B-9DF1-C7B0-3C8B-4F313133FE13" name="T_IUD_CHAMADO__IDX">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BFBA14A5-00B2-6077-5952-8D7929741E31</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="EAFA30EB-F2C7-73BB-104D-9AF275ABFB20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="420BCA3D-232A-7177-D4E2-762C17F2F0AB" name="RES_CHAMADO_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>BFBA14A5-00B2-6077-5952-8D7929741E31</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAFA30EB-F2C7-73BB-104D-9AF275ABFB20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD122491-6B42-166A-103C-2633F462DEA0" name="TIPO_CHAMADO_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>75BE36F0-6F94-6B73-7FE7-1A288BB87153</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B30849C-3739-12F7-F93A-5D9F03BEAAA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E369C6E-94AF-42BA-F785-0E7A141D38E9" name="CLIENTE_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 18:09:32 UTC</createdTime>
+<generatorID>EBADC0D6-21B1-BA45-901D-E8154A12E7EE</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B1DBF6D-1659-8FE8-B283-42AB47EAEC2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
