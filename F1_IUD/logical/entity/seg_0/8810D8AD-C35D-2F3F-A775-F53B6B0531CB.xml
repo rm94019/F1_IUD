@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8810D8AD-C35D-2F3F-A775-F53B6B0531CB" name="T_IUD_STATUS_CHAM">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:13:13 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD_STATUS_CHAM" id="5C26110B-843A-15C2-29D9-E619FB8C0920">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:13:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Os principais status são: “A” (aberto) e o primeiro status criado no início, “E” (em atendimento), “C” (cancelado)”, “F” (fechado com sucesso), “X” (fechado com insatisfação do cliente),]]></commentInRDBMS>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_STATUS_CHAMADO" id="C488B886-A9D7-E6C1-621D-CD6F72EDF1AE">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:14:21 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC1CDF98-1D60-3F9F-4C4C-35B2497EE21C" name="T_IUD_STATUS_CHAM PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:14:23 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C26110B-843A-15C2-29D9-E619FB8C0920</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

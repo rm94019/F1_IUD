@@ -29,21 +29,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ST_CHAMADO" id="67890216-CBE6-D822-A05D-416313307380">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-11 22:52:00 UTC</createdTime>
-<ownerDesignName>F1_IUD</ownerDesignName>
-<engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="DESC_CHAMDO" id="8E2C36F4-60D0-3373-5FBE-14114032A530">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:52:00 UTC</createdTime>
@@ -125,6 +110,21 @@
 </engineerTo>
 <referedAttribute>83756E39-E410-11B6-DD93-D0CAFC1734A9</referedAttribute>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_STATUS_CHAM" id="C5766480-09A2-0020-6A5B-65CA1A94C970">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:32:04 UTC</createdTime>
+<generatorID>228ACAE5-F3BF-4EC3-7996-5FC00DC0A2CA</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+</engineerTo>
+<referedAttribute>5C26110B-843A-15C2-29D9-E619FB8C0920</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
