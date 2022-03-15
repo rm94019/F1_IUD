@@ -5,6 +5,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -16,26 +17,29 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_STATUS_CHAM" id="5C26110B-843A-15C2-29D9-E619FB8C0920">
+<Attribute name="COD_ST_CHAMADO" id="5C26110B-843A-15C2-29D9-E619FB8C0920">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-15 00:13:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Os principais status são: “A” (aberto) e o primeiro status criado no início, “E” (em atendimento), “C” (cancelado)”, “F” (fechado com sucesso), “X” (fechado com insatisfação do cliente),]]></commentInRDBMS>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_STATUS_CHAMADO" id="C488B886-A9D7-E6C1-621D-CD6F72EDF1AE">
+<Attribute name="DS_ST_CHAMADO" id="C488B886-A9D7-E6C1-621D-CD6F72EDF1AE">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-15 00:14:21 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -53,6 +57,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <pk>true</pk>

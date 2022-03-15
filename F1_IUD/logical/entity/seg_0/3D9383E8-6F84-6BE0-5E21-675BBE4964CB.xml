@@ -5,6 +5,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -22,12 +23,14 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="TXT_RETORNO" id="1F9D8A50-82F7-E539-C5DC-616049B6F43E">
 <createdBy>gamer</createdBy>
@@ -35,6 +38,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -49,6 +53,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -57,47 +62,69 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="IND_SATISFACAO_CLIENTE" id="F91E54C5-3239-4C40-141D-B282FF7DBFB6">
+<Attribute name="IND_SATISFACAO" id="F91E54C5-3239-4C40-141D-B282FF7DBFB6">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:57:22 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_CHAMADO" id="653ACF62-BA8A-4758-02F4-44C4A7FCDB93">
+<Attribute name="COD_CHAMADO" id="85F74CF2-4F3B-1837-8469-4BAE5D9B6BAE">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-12 19:58:55 UTC</createdTime>
-<generatorID>BFBA14A5-00B2-6077-5952-8D7929741E31</generatorID>
+<createdTime>2022-03-15 14:00:52 UTC</createdTime>
+<generatorID>115F983C-FBDE-B697-62C9-C57C8CAA15BD</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <referedAttribute>86ECBF1A-4F98-249C-B9C7-3AC6B1D7189B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_FUNCIONARIO" id="8765B1CF-479B-7C77-A4AF-026B430F14C1">
+<Attribute name="COD_CLIENTE" id="67CF539A-3696-F037-BB7D-780A8FC00E71">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 22:29:12 UTC</createdTime>
-<generatorID>E305304A-4F58-1544-ACFC-8E0CABAD1E4B</generatorID>
+<createdTime>2022-03-15 14:00:52 UTC</createdTime>
+<generatorID>115F983C-FBDE-B697-62C9-C57C8CAA15BD</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
-<referedAttribute>0BE3E096-22E8-5A4D-AFFE-7820C744C335</referedAttribute>
+<referedAttribute>B61D2FB9-7E5A-F990-55D0-88A56A31640F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD_FUNCIONARIO" id="62672B00-031F-76E1-D90C-E770BCBBD4EA">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:03:27 UTC</createdTime>
+<generatorID>115F983C-FBDE-B697-62C9-C57C8CAA15BD</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
+<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+</engineerTo>
+<referedAttribute>3A93069D-21EF-305D-E4E4-448E9E36A9A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -108,6 +135,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <pk>true</pk>

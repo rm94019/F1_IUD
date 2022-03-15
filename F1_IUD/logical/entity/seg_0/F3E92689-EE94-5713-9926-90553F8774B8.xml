@@ -5,6 +5,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -16,15 +17,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_CLIENTE" id="83756E39-E410-11B6-DD93-D0CAFC1734A9">
+<Attribute name="COD_CLIENTE" id="C9AF6F08-46D9-C343-5009-2FC8FCA1F5BE">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-14 22:29:50 UTC</createdTime>
+<createdTime>2022-03-15 13:58:02 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_CADASTRO" id="FE249594-A58B-457A-F4B2-A760CA4CE743">
@@ -34,12 +38,14 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <referedAttribute>21C776A9-3675-2409-273F-13B35B0FC003</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DT_ULT_ACESSO" id="64F786E7-DFF9-66CF-EC2B-FD6518D141C1">
@@ -48,6 +54,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -63,12 +70,14 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <referedAttribute>2F1B3C61-475B-318B-1C1E-AFCD9A61C827</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_GENERO" id="DFA6B8A6-7874-EA52-EEC3-5410C7380B99">
@@ -78,12 +87,14 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <referedAttribute>83CEA2CB-8AB4-30A7-750A-298591797728</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -94,11 +105,12 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>83756E39-E410-11B6-DD93-D0CAFC1734A9</attributeRef>
+<attributeRef>C9AF6F08-46D9-C343-5009-2FC8FCA1F5BE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

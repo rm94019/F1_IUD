@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D09CD58-2993-2792-D906-07B7365A42ED" name="T_IUD_STATUS_CHAM">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:51:21 UTC</createdTime>
+<generatorID>8810D8AD-C35D-2F3F-A775-F53B6B0531CB</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_STATUS_CHAM" id="660A6AB8-5F34-F48C-D266-E894DF5EBFE9">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:51:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Os principais status são: “A” (aberto) e o primeiro status criado no início, “E” (em atendimento), “C” (cancelado)”, “F” (fechado com sucesso), “X” (fechado com insatisfação do cliente),]]></commentInRDBMS>
+<generatorID>5C26110B-843A-15C2-29D9-E619FB8C0920</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_STATUS_CHAMADO" id="3C24A614-8EA9-14CD-8C4A-79B80C4F1698">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:51:21 UTC</createdTime>
+<generatorID>C488B886-A9D7-E6C1-621D-CD6F72EDF1AE</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DB21A8D-689A-E44C-1B62-4CD95C86742F" name="T_IUD_STATUS_CHAM_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 00:51:21 UTC</createdTime>
+<generatorID>BC1CDF98-1D60-3F9F-4C4C-35B2497EE21C</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="660A6AB8-5F34-F48C-D266-E894DF5EBFE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
