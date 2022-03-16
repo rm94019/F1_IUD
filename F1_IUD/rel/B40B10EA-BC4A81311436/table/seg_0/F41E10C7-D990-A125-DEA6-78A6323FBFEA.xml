@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F41E10C7-D990-A125-DEA6-78A6323FBFEA" name="T_IUD_CATEGORIA_VIDEO">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>7513725C-D82D-7CCB-EAE0-F56FE35C8CF7</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CAT_VIDEO" id="5B98E277-734F-FE5E-91AC-41D2AE7262E2">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>DCAA0151-9D40-B3E2-82E2-00E9D264D0A4</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CAT_VIDEO" id="04B803A6-301D-BD9C-9EE9-3B5E4D258047">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>C08EB21D-8D0B-AE9A-D8D1-1AFDB5234306</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C0F6208-72E3-0F54-98A6-A1E840E2180A" name="T_IUD_CATEGORIA_VIDEO_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>E4226A22-FA56-2E4D-D1B3-04E0DF4ED937</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B98E277-734F-FE5E-91AC-41D2AE7262E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

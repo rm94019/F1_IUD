@@ -29,7 +29,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_CADASTRO" id="FE249594-A58B-457A-F4B2-A760CA4CE743">
 <createdBy>ricardo</createdBy>
@@ -109,6 +110,7 @@
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>C9AF6F08-46D9-C343-5009-2FC8FCA1F5BE</newElementsIDs>
 <usedAttributes>
 <attributeRef>C9AF6F08-46D9-C343-5009-2FC8FCA1F5BE</attributeRef>
 </usedAttributes>

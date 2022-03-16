@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04976598-E3BD-C694-880B-2FD479A9381F" containerWithKeyObject="22FEF577-D5E9-C54C-3313-0C9C6596BCC4" localFKIndex="D9042A9D-12AB-106D-F98E-516A801CEDED" name="T_IUD_STATUS_VIDEO_FK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>89A66B90-8C9D-FA7A-BE8F-4CCB5AA96964</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<referredTableLongName>T_IUD_STATUS_VIDEO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECEFEAE1-19D8-C831-4408-397F6D523F18</referredTableID>
+<keyObject>4132AFF4-036E-EDBF-9BE0-98259F21888F</keyObject>
+<referredKeyID>4132AFF4-036E-EDBF-9BE0-98259F21888F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_STATUS_VIDEO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A5469D9-5991-1A40-6FF6-D33EF084A7DA" name="T_IUD_DEPARTAMENTO">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>973BF8B6-725A-CEAD-D92B-5D01ABC4A382</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_DP" id="597A19F0-B09B-C9E8-9EA0-44924D563560">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>29D404F3-7EB5-A9FF-06C6-6D180DCD2943</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_DP" id="A987E71D-3DC4-F7CA-3F34-CED94744D803">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>B92EB652-F204-0434-03E8-7D730E9B22B4</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1610D8EA-525D-E446-CB1D-D60DBA10EB9D" name="T_IUD_DEPARTAMENTO_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>E7246DC3-347C-A7FF-6D99-8998A9F914A4</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="597A19F0-B09B-C9E8-9EA0-44924D563560"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

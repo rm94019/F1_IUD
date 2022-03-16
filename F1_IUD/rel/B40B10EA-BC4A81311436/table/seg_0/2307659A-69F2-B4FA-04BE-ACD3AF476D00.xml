@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2307659A-69F2-B4FA-04BE-ACD3AF476D00" name="T_IUD_CADASTRO">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>EDE5317D-706B-EC9A-5C50-16DA5E2A23A6</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_CADASTRO" id="0CAB7162-7DE2-F6E3-9C4E-FB6A1D3C686C">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>21C776A9-3675-2409-273F-13B35B0FC003</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_NOME" id="56892D49-3C38-314C-CB7E-00517ED0882C">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>5B068BAE-63B5-FC09-5DFB-61A3A3D59A60</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DDD_TEL" id="5B9D3B0F-AE5F-7F8A-21EE-A4BB2959A981">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>1169B497-41A3-8F03-01C2-5FA54886C9BA</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_NASC" id="DE0ED120-39BD-F5CA-AF9D-F91F6A9E46EE">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>4648EAAA-4C65-C231-EC63-26B998FCDD53</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="82781109-9C67-0A24-F7F9-413E26C67231">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>10625EE5-6A61-C811-E7AE-95CCFD83EA3F</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COD_TIPO_CAD" id="9C1390AE-E88B-8979-2A22-2EAE312F9D45">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[F: Funcionario, C: Cliente]]></commentInRDBMS>
+<generatorID>5F7EA0AF-A038-5884-20EA-1C72401A2904</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31444FE7-4B8F-BF6B-DA11-B3FBC7FC21B5" name="T_IUD_CADASTRO_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>AEFB541B-D6DB-A042-CC97-A9532C7F3018</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CAB7162-7DE2-F6E3-9C4E-FB6A1D3C686C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -42,7 +42,6 @@
 <item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>CFF6D3BD-CB34-6885-6AEC-D492328AE2ED</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -65,19 +64,22 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_CLIENTE" id="4C5C0F53-E173-5FF7-AD93-36382D992F0C">
+<Attribute name="COD_CLIENTE" id="896CDE9E-DE63-717F-5DD3-C10EBD1E709C">
 <createdBy>gamer</createdBy>
-<createdTime>2022-03-15 13:58:15 UTC</createdTime>
-<generatorID>E14A4217-AF87-02D8-FDA8-8A277AED513D</generatorID>
+<createdTime>2022-03-15 14:29:29 UTC</createdTime>
+<generatorID>5229388E-262C-D377-A527-0D53145FD1F8</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
 <item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>C9AF6F08-46D9-C343-5009-2FC8FCA1F5BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

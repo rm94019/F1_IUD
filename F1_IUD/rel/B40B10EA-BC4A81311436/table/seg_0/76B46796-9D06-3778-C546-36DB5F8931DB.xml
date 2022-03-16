@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76B46796-9D06-3778-C546-36DB5F8931DB" name="T_IUD_STATUS_PROD">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>8F73D8C9-897E-ED21-7F3A-EBD74EDD9ECB</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_STATUS_PROD" id="3EF7AA30-BE80-D032-33FC-C4530DF76938">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[I: inativo, P: prospeccao, A: Ativo]]></commentInRDBMS>
+<generatorID>FE9A0899-0CCC-696D-A983-DD719411CEF0</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_STATUS" id="50AEE586-2363-6DE6-F96E-F4786990138A">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[I: inativo, P: prospeccao, A: Ativo]]></commentInRDBMS>
+<generatorID>B41EC1D1-FD96-9061-113E-C8303CEECF04</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8C60677-D0A6-A6E1-25C8-829A6093CC29" name="T_IUD_STATUS_PROD_PK">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-15 14:31:00 UTC</createdTime>
+<generatorID>60B993B0-CC60-7DCA-4ABF-BE695238AACC</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EF7AA30-BE80-D032-33FC-C4530DF76938"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
