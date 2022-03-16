@@ -4,8 +4,9 @@
 <createdTime>2022-03-12 18:09:32 UTC</createdTime>
 <generatorID>0C809AC5-62A2-7DB3-1960-FBCBA5CA5D70</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<beforeDrop><![CDATA[INSERT INTO  {table} (ds_cargo) VALUES ('ANALISTA');
-INSERT INTO  {table} (ds_cargo) VALUES ('SUPORTE');]]></beforeDrop>
+<afterCreate><![CDATA[INSERT INTO  {table} (ds_cargo) VALUES ('ANALISTA');
+INSERT INTO  {table} (ds_cargo) VALUES ('SUPORTE');]]></afterCreate>
+<shouldGeneratescript>true</shouldGeneratescript>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

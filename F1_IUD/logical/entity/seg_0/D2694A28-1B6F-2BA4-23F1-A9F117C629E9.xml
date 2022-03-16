@@ -5,6 +5,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="B40B10EA-C920-ACBF-F0C0-BC4A81311436" value="true"/>
 <item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
@@ -23,21 +24,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DS_STATUS" id="26345ABC-BC84-2A49-DEA3-E797A016ECEF">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-12 16:11:18 UTC</createdTime>
-<ownerDesignName>F1_IUD</ownerDesignName>
-<engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="B40B10EA-C920-ACBF-F0C0-BC4A81311436" value="true"/>
 <item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>
@@ -47,6 +34,22 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DS_STATUS" id="26345ABC-BC84-2A49-DEA3-E797A016ECEF">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-12 16:11:18 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="B40B10EA-C920-ACBF-F0C0-BC4A81311436" value="true"/>
+<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
+<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="AAF5723B-8078-3EA0-AFCC-622F0A6AF531" name="TC_IUD_STATUS_VIDEO PK">
@@ -55,6 +58,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="B40B10EA-C920-ACBF-F0C0-BC4A81311436" value="true"/>
 <item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
 <item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
 </engineerTo>

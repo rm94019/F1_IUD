@@ -5,6 +5,7 @@
 <generatorID>3D241A12-C127-F700-8A52-086634D0C166</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <beforeDrop><![CDATA[INSERT INTO {table}(DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('INFORMATICA',CURRENT_TIMESTAMP,'A');]]></beforeDrop>
+<shouldGeneratescript>true</shouldGeneratescript>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -27,7 +28,6 @@
 <createdTime>2022-03-12 18:09:32 UTC</createdTime>
 <generatorID>D6B89B28-CBC6-14E6-3B43-6482ED3FEFD6</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -40,7 +40,6 @@
 <createdTime>2022-03-12 18:09:32 UTC</createdTime>
 <generatorID>B505BC1A-152F-0559-4540-E6B112E96028</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>

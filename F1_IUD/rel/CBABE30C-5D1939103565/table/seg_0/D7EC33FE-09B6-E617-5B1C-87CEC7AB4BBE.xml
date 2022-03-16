@@ -4,10 +4,12 @@
 <createdTime>2022-03-12 18:09:32 UTC</createdTime>
 <generatorID>973BF8B6-725A-CEAD-D92B-5D01ABC4A382</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<beforeDrop><![CDATA[INSERT INTO  {table} (ds_dp) VALUES ('TI');
+<afterCreate><![CDATA[INSERT INTO  {table} (ds_dp) VALUES ('TI');
 INSERT INTO  {table} (ds_dp) VALUES ('COMERCIAL');
-INSERT INTO  {table} (ds_dp) VALUES ('FINANCEIRO');
+INSERT INTO  {table} (ds_dp) VALUES ('FINANCEIRO');]]></afterCreate>
+<beforeDrop><![CDATA[
 ]]></beforeDrop>
+<shouldGeneratescript>true</shouldGeneratescript>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
