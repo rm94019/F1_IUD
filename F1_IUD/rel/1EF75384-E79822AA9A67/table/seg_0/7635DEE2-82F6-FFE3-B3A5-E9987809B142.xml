@@ -67,20 +67,6 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_TIPO_CAD" id="E1A31117-292F-3E39-5370-7467D88CBFC3">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-16 11:41:47 UTC</createdTime>
-<commentInRDBMS><![CDATA[F: Funcionario, C: Cliente]]></commentInRDBMS>
-<generatorID>5F7EA0AF-A038-5884-20EA-1C72401A2904</generatorID>
-<ownerDesignName>F1_IUD</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="9A1C011B-0716-6224-26F4-6BA0805DC747" name="T_IUD_CADASTRO_PK">
