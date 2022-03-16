@@ -4,9 +4,7 @@
 <createdTime>2022-03-11 22:48:36 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -17,30 +15,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_CLIENTE" id="C9AF6F08-46D9-C343-5009-2FC8FCA1F5BE">
-<createdBy>gamer</createdBy>
-<createdTime>2022-03-15 13:58:02 UTC</createdTime>
-<ownerDesignName>F1_IUD</ownerDesignName>
-<engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="COD_CADASTRO" id="FE249594-A58B-457A-F4B2-A760CA4CE743">
 <createdBy>ricardo</createdBy>
 <createdTime>2022-03-12 15:10:38 UTC</createdTime>
 <generatorID>157266D7-6EDF-EF1F-9E6F-B4861955A4F4</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <referedAttribute>21C776A9-3675-2409-273F-13B35B0FC003</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -54,9 +35,7 @@
 <createdTime>2022-03-11 22:49:25 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,9 +49,7 @@
 <generatorID>F7B3F227-8818-392F-0553-E764E5381AD9</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <referedAttribute>2F1B3C61-475B-318B-1C1E-AFCD9A61C827</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -87,9 +64,7 @@
 <generatorID>AA419E28-FAB3-F272-6AB9-A53371302141</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <referedAttribute>83CEA2CB-8AB4-30A7-750A-298591797728</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -105,14 +80,12 @@
 <createdTime>2022-03-12 15:22:48 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>C9AF6F08-46D9-C343-5009-2FC8FCA1F5BE</newElementsIDs>
+<newElementsIDs>FE249594-A58B-457A-F4B2-A760CA4CE743</newElementsIDs>
 <usedAttributes>
-<attributeRef>C9AF6F08-46D9-C343-5009-2FC8FCA1F5BE</attributeRef>
+<attributeRef>FE249594-A58B-457A-F4B2-A760CA4CE743</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
