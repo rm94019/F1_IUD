@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="D4B60902-3D49-FE0A-9693-A623D80171C7" name="Arc_1">
+<createdBy>gamer</createdBy>
+<createdTime>2022-03-16 21:33:33 UTC</createdTime>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+</engineerTo>
+<entity>EDE5317D-706B-EC9A-5C50-16DA5E2A23A6</entity>
+<relations>
+<relationID>D297405F-CFDC-AF47-3637-90EAEC0FEAEC</relationID>
+<relationID>157266D7-6EDF-EF1F-9E6F-B4861955A4F4</relationID>
+</relations>
+</Arc>
