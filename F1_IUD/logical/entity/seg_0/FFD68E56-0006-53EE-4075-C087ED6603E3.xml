@@ -5,6 +5,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +16,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_GENERO" id="83CEA2CB-8AB4-30A7-750A-298591797728">
+<Attribute name="cod_genero" id="83CEA2CB-8AB4-30A7-750A-298591797728">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 15:52:56 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,12 +30,13 @@
 <dataTypePrecision>1</dataTypePrecision>
 <ownDataTypeParameters>,1,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_GENERO" id="58CBDCE1-62F5-06EF-C3A3-6C2A817FB2E7">
+<Attribute name="ds_genero" id="58CBDCE1-62F5-06EF-C3A3-6C2A817FB2E7">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 15:53:10 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,12 +47,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="167C8471-596E-2AB1-0F55-90E2D4055005" name="TC_IUD_GENERO_CLI PK">
+<identifier id="167C8471-596E-2AB1-0F55-90E2D4055005" name="tc_iud_genero_cli pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 15:53:08 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

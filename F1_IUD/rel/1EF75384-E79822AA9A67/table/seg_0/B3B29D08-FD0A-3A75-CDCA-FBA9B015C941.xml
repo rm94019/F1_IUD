@@ -4,7 +4,6 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>8F73D8C9-897E-ED21-7F3A-EBD74EDD9ECB</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_status_prod</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (cod_status_produto,ds_status) VALUES ('A','ATIVO');
 INSERT INTO  {table} (cod_status_produto,ds_status) VALUES ('I','INATIVO');
 INSERT INTO  {table} (cod_status_produto,ds_status) VALUES ('P','PROSPECÇÃO');]]></afterCreate>
@@ -12,7 +11,7 @@ INSERT INTO  {table} (cod_status_produto,ds_status) VALUES ('P','PROSPECÇÃO');
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_STATUS_PROD" id="0B763130-17A5-ACF7-DB46-ECE2828B34A6">
+<Column name="cod_status_prod" id="0B763130-17A5-ACF7-DB46-ECE2828B34A6">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <commentInRDBMS><![CDATA[I: inativo, P: prospeccao, A: Ativo]]></commentInRDBMS>
@@ -25,7 +24,7 @@ INSERT INTO  {table} (cod_status_produto,ds_status) VALUES ('P','PROSPECÇÃO');
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_STATUS" id="021781AC-3266-122A-E797-9165DFA144E7">
+<Column name="ds_status" id="021781AC-3266-122A-E797-9165DFA144E7">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <commentInRDBMS><![CDATA[I: inativo, P: prospeccao, A: Ativo]]></commentInRDBMS>
@@ -40,7 +39,7 @@ INSERT INTO  {table} (cod_status_produto,ds_status) VALUES ('P','PROSPECÇÃO');
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="48965761-FDC1-00C1-0491-6FCAE6D54E75" name="T_SGV_STATUS_PROD_PK">
+<ind_PK_UK id="48965761-FDC1-00C1-0491-6FCAE6D54E75" name="t_sgv_status_prod_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>60B993B0-CC60-7DCA-4ABF-BE695238AACC</generatorID>

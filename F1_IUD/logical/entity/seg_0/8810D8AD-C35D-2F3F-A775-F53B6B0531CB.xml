@@ -5,6 +5,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,13 +16,14 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_ST_CHAMADO" id="5C26110B-843A-15C2-29D9-E619FB8C0920">
+<Attribute name="cod_st_chamado" id="5C26110B-843A-15C2-29D9-E619FB8C0920">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-15 00:13:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Os principais status são: “A” (aberto) e o primeiro status criado no início, “E” (em atendimento), “C” (cancelado)”, “F” (fechado com sucesso), “X” (fechado com insatisfação do cliente),]]></commentInRDBMS>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +31,13 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_ST_CHAMADO" id="C488B886-A9D7-E6C1-621D-CD6F72EDF1AE">
+<Attribute name="ds_st_chamado" id="C488B886-A9D7-E6C1-621D-CD6F72EDF1AE">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-15 00:14:21 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,12 +48,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BC1CDF98-1D60-3F9F-4C4C-35B2497EE21C" name="T_IUD_STATUS_CHAM PK">
+<identifier id="BC1CDF98-1D60-3F9F-4C4C-35B2497EE21C" name="t_iud_status_cham pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-15 00:14:23 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

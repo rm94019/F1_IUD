@@ -5,6 +5,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,13 +16,14 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_STATUS_PROD" id="FE9A0899-0CCC-696D-A983-DD719411CEF0">
+<Attribute name="cod_status_prod" id="FE9A0899-0CCC-696D-A983-DD719411CEF0">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 16:14:50 UTC</createdTime>
 <commentInRDBMS><![CDATA[I: inativo, P: prospeccao, A: Ativo]]></commentInRDBMS>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,13 +31,14 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_STATUS" id="B41EC1D1-FD96-9061-113E-C8303CEECF04">
+<Attribute name="ds_status" id="B41EC1D1-FD96-9061-113E-C8303CEECF04">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 16:15:07 UTC</createdTime>
 <commentInRDBMS><![CDATA[I: inativo, P: prospeccao, A: Ativo]]></commentInRDBMS>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,12 +48,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="60B993B0-CC60-7DCA-4ABF-BE695238AACC" name="TC_IUD_STATUS_PRODUTO PK">
+<identifier id="60B993B0-CC60-7DCA-4ABF-BE695238AACC" name="tc_iud_status_produto pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 16:14:58 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

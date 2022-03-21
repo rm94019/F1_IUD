@@ -4,14 +4,13 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>3D241A12-C127-F700-8A52-086634D0C166</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_categoria_prod</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('INFORMATICA',CURRENT_TIMESTAMP,'A');
 INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('ELETRONICO',CURRENT_TIMESTAMP,'A');]]></afterCreate>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_CATEGORIA" id="6F7A09FC-95CF-E312-8028-8288D1B7CF5C">
+<Column name="cod_categoria" id="6F7A09FC-95CF-E312-8028-8288D1B7CF5C">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>29897DB6-822B-D680-5BD2-E10BA2B40F36</generatorID>
@@ -25,7 +24,7 @@ INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('ELETRONICO
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_CATEGORIA" id="47439767-E416-E2EE-0DEC-A6AD87592E96">
+<Column name="ds_categoria" id="47439767-E416-E2EE-0DEC-A6AD87592E96">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>D6B89B28-CBC6-14E6-3B43-6482ED3FEFD6</generatorID>
@@ -37,7 +36,7 @@ INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('ELETRONICO
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_INICIO" id="5F5A2352-FBAD-B50B-4847-D212D435363C">
+<Column name="dt_inicio" id="5F5A2352-FBAD-B50B-4847-D212D435363C">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>B505BC1A-152F-0559-4540-E6B112E96028</generatorID>
@@ -48,7 +47,7 @@ INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('ELETRONICO
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_TERMINO" id="35E12634-5413-DFF1-83C6-098A0F024EFB">
+<Column name="dt_termino" id="35E12634-5413-DFF1-83C6-098A0F024EFB">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>2C8FA00D-098D-104B-0275-725C1336755D</generatorID>
@@ -60,7 +59,7 @@ INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('ELETRONICO
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_STATUS_CAT" id="4789DC2F-7B9B-59ED-EDB3-D324D61C2D14">
+<Column name="cod_status_cat" id="4789DC2F-7B9B-59ED-EDB3-D324D61C2D14">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>83FFCAAB-33F2-02DA-C5C0-A83637F424CB</generatorID>
@@ -78,7 +77,7 @@ INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('ELETRONICO
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="80272D1F-FC32-A033-29DB-25AFFB0D2D66" name="T_SGV_CATEGORIA_PROD_PK">
+<ind_PK_UK id="80272D1F-FC32-A033-29DB-25AFFB0D2D66" name="t_sgv_categoria_prod_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>8A49AE51-DF33-2DB9-B6E7-2BB898DDE1CF</generatorID>
@@ -90,7 +89,7 @@ INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('ELETRONICO
 <colUsage columnID="6F7A09FC-95CF-E312-8028-8288D1B7CF5C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8D9E08F9-798A-51C6-C1DC-FB09449B0097" name="T_SGV_STATUS_CAT_FK">
+<ind_PK_UK id="8D9E08F9-798A-51C6-C1DC-FB09449B0097" name="t_sgv_status_cat_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>8BFA6B0A-3700-667F-13FA-1F9F655FD37A</generatorID>

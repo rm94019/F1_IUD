@@ -4,12 +4,11 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>2F57F1F4-A6F0-408A-A387-1175BCB50A6F</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_status_cat</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_STATUS_CAT" id="9F04A750-E5E6-05EF-1CAA-F19531D0A1AB">
+<Column name="cod_status_cat" id="9F04A750-E5E6-05EF-1CAA-F19531D0A1AB">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>FAFC704A-77BC-AABC-D04E-8D2D05231093</generatorID>
@@ -21,7 +20,7 @@
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_STATUS" id="79496BEA-6C8B-4755-6E41-C6018BB7C11D">
+<Column name="ds_status" id="79496BEA-6C8B-4755-6E41-C6018BB7C11D">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <commentInRDBMS><![CDATA[I: inativo, A: Ativo]]></commentInRDBMS>
@@ -36,7 +35,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1B91B724-4F22-52BD-7B55-5D3A17E4658E" name="T_SGV_STATUS_CAT_PK">
+<ind_PK_UK id="1B91B724-4F22-52BD-7B55-5D3A17E4658E" name="t_sgv_status_cat_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>72C58C4F-B2D0-637D-D23B-8D9C690ED827</generatorID>

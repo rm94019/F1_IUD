@@ -5,6 +5,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +16,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_VIDEO" id="CFF6D3BD-CB34-6885-6AEC-D492328AE2ED">
+<Attribute name="cod_video" id="CFF6D3BD-CB34-6885-6AEC-D492328AE2ED">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:59:21 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,12 +30,13 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LINK_VIDEO" id="A0A2674D-1F8E-1FE6-F974-49E984D8C1CD">
+<Attribute name="link_video" id="A0A2674D-1F8E-1FE6-F974-49E984D8C1CD">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:59:27 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,13 +45,14 @@
 <dataTypeSize>500</dataTypeSize>
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_PRODUTO" id="819F80E2-7185-9E73-4D43-4A6AEA75F146">
+<Attribute name="cod_produto" id="819F80E2-7185-9E73-4D43-4A6AEA75F146">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 16:04:55 UTC</createdTime>
 <generatorID>15B1D593-D481-4052-26BA-4A59A8425396</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <referedAttribute>2E126F38-5B30-7C83-A755-C87A76631B72</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,13 +61,14 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_STATUS_VIDEO" id="F1C73082-054A-22C7-705B-6E5BEB85F48E">
+<Attribute name="cod_status_video" id="F1C73082-054A-22C7-705B-6E5BEB85F48E">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 16:11:48 UTC</createdTime>
 <generatorID>89A66B90-8C9D-FA7A-BE8F-4CCB5AA96964</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <referedAttribute>FE136A91-7349-96AD-6F9D-B65D12B5F1BB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -72,13 +77,14 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_CAT_VIDEO" id="E4859DFB-0D82-5657-EAFB-1D354FB6772D">
+<Attribute name="cod_cat_video" id="E4859DFB-0D82-5657-EAFB-1D354FB6772D">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 19:55:30 UTC</createdTime>
 <generatorID>A99ABA7B-2B5D-E878-75E0-846731D9C221</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <referedAttribute>DCAA0151-9D40-B3E2-82E2-00E9D264D0A4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,12 +95,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6D516C48-18F4-86A9-160A-E3FA2F2ECCDC" name="TC_UID_VIDEO_PROD PK">
+<identifier id="6D516C48-18F4-86A9-160A-E3FA2F2ECCDC" name="tc_uid_video_prod pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:59:25 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

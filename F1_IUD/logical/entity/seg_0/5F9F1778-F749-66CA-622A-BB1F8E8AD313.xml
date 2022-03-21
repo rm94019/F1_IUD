@@ -4,6 +4,7 @@
 <createdTime>2022-03-11 21:11:11 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 <item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -14,4 +15,22 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_produto" id="662B6B1F-0F2A-A5C9-2DEB-C8C0683B4514">
+<createdBy>ricardo</createdBy>
+<createdTime>2022-03-19 14:20:21 UTC</createdTime>
+<generatorID>87599618-E392-FCD5-D535-2FEE20AFEB84</generatorID>
+<ownerDesignName>F1_IUD</ownerDesignName>
+<engineerTo>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
+</engineerTo>
+<referedAttribute>2E126F38-5B30-7C83-A755-C87A76631B72</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

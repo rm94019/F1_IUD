@@ -5,6 +5,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +16,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_CHAMADO" id="86ECBF1A-4F98-249C-B9C7-3AC6B1D7189B">
+<Attribute name="cod_chamado" id="86ECBF1A-4F98-249C-B9C7-3AC6B1D7189B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:52:00 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,13 +30,14 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_CADASTRO" id="83ED2A84-4D77-673C-9023-7CE8601C6850">
+<Attribute name="cod_cadastro" id="83ED2A84-4D77-673C-9023-7CE8601C6850">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:40:26 UTC</createdTime>
 <generatorID>D8FDCEB3-4E86-E494-8EA1-521A03D21F34</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <referedAttribute>74C724CB-2F54-F53A-A401-9D7C8CCDA8CE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,13 +46,14 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_CADASTRO1" id="DE060EA7-2BB9-3101-6702-503B48800BD6">
+<Attribute name="cod_cadastro2" id="DE060EA7-2BB9-3101-6702-503B48800BD6">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:40:33 UTC</createdTime>
 <generatorID>EBADC0D6-21B1-BA45-901D-E8154A12E7EE</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <referedAttribute>FE249594-A58B-457A-F4B2-A760CA4CE743</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,12 +62,13 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TXT_CHAMADO" id="8E2C36F4-60D0-3373-5FBE-14114032A530">
+<Attribute name="txt_chamado" id="8E2C36F4-60D0-3373-5FBE-14114032A530">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:52:00 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -71,24 +76,26 @@
 <logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DT_ABERTURA" id="DD152BD1-2ECF-0E1C-F396-0190BF595A2C">
+<Attribute name="dt_abertura" id="DD152BD1-2ECF-0E1C-F396-0190BF595A2C">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:52:00 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DT_FECHAMENTO" id="560B03F0-FC92-6439-CC46-5FD295413C9C">
+<Attribute name="dt_fechamento" id="560B03F0-FC92-6439-CC46-5FD295413C9C">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:52:01 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -96,12 +103,13 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="QT_HORAS" id="3D093C54-784E-A15E-46EC-3108343A3A51">
+<Attribute name="qt_horas" id="3D093C54-784E-A15E-46EC-3108343A3A51">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:52:01 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -109,13 +117,14 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_TIPO_CHAM" id="F1A415AC-A3D6-8B9B-6C32-F666ACB8B9BE">
+<Attribute name="cod_tipo_cham" id="F1A415AC-A3D6-8B9B-6C32-F666ACB8B9BE">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 15:41:51 UTC</createdTime>
 <generatorID>75BE36F0-6F94-6B73-7FE7-1A288BB87153</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <referedAttribute>76F0DB1D-DE96-ADDB-67D7-1A946B799E21</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -124,13 +133,14 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_ST_CHAMADO" id="C5766480-09A2-0020-6A5B-65CA1A94C970">
+<Attribute name="cod_st_chamado" id="C5766480-09A2-0020-6A5B-65CA1A94C970">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-15 00:32:04 UTC</createdTime>
 <generatorID>228ACAE5-F3BF-4EC3-7996-5FC00DC0A2CA</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <referedAttribute>5C26110B-843A-15C2-29D9-E619FB8C0920</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -139,13 +149,14 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_PRODUTO" id="DD46D041-C8AD-FB4C-6DFC-9FC43F112571">
+<Attribute name="cod_produto" id="DD46D041-C8AD-FB4C-6DFC-9FC43F112571">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 00:52:43 UTC</createdTime>
 <generatorID>2C7DDF17-7289-3F5E-C99C-EE016B1BCFA1</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <referedAttribute>2E126F38-5B30-7C83-A755-C87A76631B72</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -156,12 +167,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4944E8A6-66BF-5E6D-2A04-5C5B0E089DC0" name="TC_IUD_CHAMADO PK">
+<identifier id="4944E8A6-66BF-5E6D-2A04-5C5B0E089DC0" name="tc_iud_chamado pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:52:05 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

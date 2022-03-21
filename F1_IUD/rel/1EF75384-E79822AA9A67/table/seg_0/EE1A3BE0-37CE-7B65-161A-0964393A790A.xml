@@ -4,12 +4,11 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>3D9383E8-6F84-6BE0-5E21-675BBE4964CB</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_res_chamado</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_RESOLUCAO" id="828A424B-6E4B-0EF8-2EE5-03F9F0C8FF16">
+<Column name="cod_resolucao" id="828A424B-6E4B-0EF8-2EE5-03F9F0C8FF16">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>4223FACD-B2AE-01DE-72BD-051B917E7B12</generatorID>
@@ -21,7 +20,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TXT_RETORNO" id="EECA53FA-FDC1-88B6-C3D7-13978D951025">
+<Column name="txt_retorno" id="EECA53FA-FDC1-88B6-C3D7-13978D951025">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>1F9D8A50-82F7-E539-C5DC-616049B6F43E</generatorID>
@@ -33,7 +32,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_ATENDIMENTO" id="CA8DD882-655F-8E8A-2631-0F27B6DC3CA9">
+<Column name="dt_atendimento" id="CA8DD882-655F-8E8A-2631-0F27B6DC3CA9">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>8BC5961B-7782-CED5-9F17-1D84E0E8C903</generatorID>
@@ -45,7 +44,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="IND_SATISFACAO" id="3BFFEA2A-9F4D-7768-B19A-F275171BA661">
+<Column name="ind_satisfacao" id="3BFFEA2A-9F4D-7768-B19A-F275171BA661">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>F91E54C5-3239-4C40-141D-B282FF7DBFB6</generatorID>
@@ -58,7 +57,7 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_CHAMADO" id="1DE63AAC-1D33-C60B-F856-1B3ED592AC43">
+<Column name="cod_chamado" id="1DE63AAC-1D33-C60B-F856-1B3ED592AC43">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>85F74CF2-4F3B-1837-8469-4BAE5D9B6BAE</generatorID>
@@ -74,7 +73,7 @@
 <colAssociation fkAssociation="00D3ECBD-783C-D733-9274-8A498C25B19B" referredColumn="5B4B221B-398B-602A-209A-DD040E95D11D"/>
 </associations>
 </Column>
-<Column name="COD_CAD_FUNCIONARIO" id="8304C08B-1A4A-3653-59C9-70B25157143F">
+<Column name="cod_cad_funcionario" id="8304C08B-1A4A-3653-59C9-70B25157143F">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:47:52 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
@@ -89,7 +88,7 @@
 <colAssociation fkAssociation="00D3ECBD-783C-D733-9274-8A498C25B19B" referredColumn="48FA7757-8F46-A50A-5517-A017EC6D62A6"/>
 </associations>
 </Column>
-<Column name="COD_CAD_CLIENTE" id="32D26BF3-9C0A-9FF5-A899-678EDE087CA8">
+<Column name="cod_cad_cliente" id="32D26BF3-9C0A-9FF5-A899-678EDE087CA8">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:47:52 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
@@ -106,7 +105,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="95DF4300-331F-800C-8871-1A4CCFA8F80D" name="T_SGV_RES_CHAMADO_PK">
+<ind_PK_UK id="95DF4300-331F-800C-8871-1A4CCFA8F80D" name="t_sgv_res_chamado_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>96BF69E2-5009-ED63-06EA-8B32ADA791E3</generatorID>
@@ -118,7 +117,7 @@
 <colUsage columnID="828A424B-6E4B-0EF8-2EE5-03F9F0C8FF16"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="90D009C9-E764-583B-525A-D783BCF99843" name="T_IUD_RES_CHAMADO__IDX">
+<ind_PK_UK id="90D009C9-E764-583B-525A-D783BCF99843" name="t_iud_res_chamado__idx">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
@@ -129,7 +128,7 @@
 <colUsage columnID="1DE63AAC-1D33-C60B-F856-1B3ED592AC43"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D938B690-C215-CF00-BDCF-503EC5B53E1E" name="T_SGV_CHAMADO_FK">
+<ind_PK_UK id="D938B690-C215-CF00-BDCF-503EC5B53E1E" name="t_sgv_chamado_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>115F983C-FBDE-B697-62C9-C57C8CAA15BD</generatorID>

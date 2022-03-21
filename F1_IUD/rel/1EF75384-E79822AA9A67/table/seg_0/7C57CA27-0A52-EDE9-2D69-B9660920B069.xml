@@ -4,7 +4,6 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>DCECBF91-6A04-F4F8-AC76-6D78F15EC433</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_tipo_cliente</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (ds_tipo) VALUES ('PF');
 INSERT INTO  {table} (ds_tipo) VALUES ('PJ');
 ]]></afterCreate>
@@ -12,7 +11,7 @@ INSERT INTO  {table} (ds_tipo) VALUES ('PJ');
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_TIPO" id="3533E7EB-4DDF-FC6B-19A7-7D470C4D0505">
+<Column name="cod_tipo" id="3533E7EB-4DDF-FC6B-19A7-7D470C4D0505">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>2F1B3C61-475B-318B-1C1E-AFCD9A61C827</generatorID>
@@ -26,7 +25,7 @@ INSERT INTO  {table} (ds_tipo) VALUES ('PJ');
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_TIPO" id="88849056-7197-4CCC-06B9-E2FEAB0428B1">
+<Column name="ds_tipo" id="88849056-7197-4CCC-06B9-E2FEAB0428B1">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>00095DB0-7603-A6F3-0C29-E09055EAB385</generatorID>
@@ -40,7 +39,7 @@ INSERT INTO  {table} (ds_tipo) VALUES ('PJ');
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="00318A50-975F-E8C5-4AE2-2A0C411292EF" name="T_SGV_TIPO_CLIENTE_PK">
+<ind_PK_UK id="00318A50-975F-E8C5-4AE2-2A0C411292EF" name="t_sgv_tipo_cliente_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>3E22203E-29EE-1B35-50ED-D89B71D30467</generatorID>

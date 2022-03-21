@@ -4,7 +4,6 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>FFD68E56-0006-53EE-4075-C087ED6603E3</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_genero_cli</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (cod_genero) VALUES ('F');
 INSERT INTO  {table} (cod_genero) VALUES ('M');
 ]]></afterCreate>
@@ -12,7 +11,7 @@ INSERT INTO  {table} (cod_genero) VALUES ('M');
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_GENERO" id="80D38DFA-E68B-1110-2084-0D255917DB3A">
+<Column name="cod_genero" id="80D38DFA-E68B-1110-2084-0D255917DB3A">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>83CEA2CB-8AB4-30A7-750A-298591797728</generatorID>
@@ -24,7 +23,7 @@ INSERT INTO  {table} (cod_genero) VALUES ('M');
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_GENERO" id="2510DEB4-4C6F-8922-7431-F11F62B1C09A">
+<Column name="ds_genero" id="2510DEB4-4C6F-8922-7431-F11F62B1C09A">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>58CBDCE1-62F5-06EF-C3A3-6C2A817FB2E7</generatorID>
@@ -39,7 +38,7 @@ INSERT INTO  {table} (cod_genero) VALUES ('M');
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5C462F38-913A-4937-E20B-A2A57415914F" name="T_SGV_GENERO_CLI_PK">
+<ind_PK_UK id="5C462F38-913A-4937-E20B-A2A57415914F" name="t_sgv_genero_cli_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>167C8471-596E-2AB1-0F55-90E2D4055005</generatorID>

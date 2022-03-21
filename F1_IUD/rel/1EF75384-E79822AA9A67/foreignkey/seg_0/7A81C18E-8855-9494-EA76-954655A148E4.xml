@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7A81C18E-8855-9494-EA76-954655A148E4" containerWithKeyObject="FCCF4ECC-A35A-F28F-5F56-25946CA73CEC" localFKIndex="B709A043-E091-DFB0-EE44-09DCC2539B2B" name="T_SGV_CATEGORIA_VIDEO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7A81C18E-8855-9494-EA76-954655A148E4" containerWithKeyObject="FCCF4ECC-A35A-F28F-5F56-25946CA73CEC" localFKIndex="B709A043-E091-DFB0-EE44-09DCC2539B2B" name="t_sgv_categoria_video_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>A99ABA7B-2B5D-E878-75E0-846731D9C221</generatorID>
@@ -10,7 +10,7 @@
 <keyObject>90B05207-A813-9FDE-12F5-80BDAF64075D</keyObject>
 <referredKeyID>90B05207-A813-9FDE-12F5-80BDAF64075D</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>COD_CAT_VIDEO</refColNames>
+<refColNames>cod_cat_video</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

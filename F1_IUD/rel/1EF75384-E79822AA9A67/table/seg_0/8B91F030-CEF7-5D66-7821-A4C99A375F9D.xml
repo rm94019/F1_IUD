@@ -4,14 +4,13 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>2B8943AE-9DD7-EE29-9B88-230B2A03BC1B</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_tipo_chamado</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (cod_tipo_chamado,ds_chamado) values(1,'SUGESTAO');
 INSERT INTO  {table} (cod_tipo_chamado,ds_chamado) values(2,'RECLAMACAO');]]></afterCreate>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_TIPO_CHAM" id="F74AAE39-8CD1-7788-8231-1E0CDF3956A0">
+<Column name="cod_tipo_cham" id="F74AAE39-8CD1-7788-8231-1E0CDF3956A0">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>76F0DB1D-DE96-ADDB-67D7-1A946B799E21</generatorID>
@@ -25,7 +24,7 @@ INSERT INTO  {table} (cod_tipo_chamado,ds_chamado) values(2,'RECLAMACAO');]]></a
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_CHAMADO" id="FAA9AC20-15A0-0900-7510-07B9370DAF99">
+<Column name="ds_chamado" id="FAA9AC20-15A0-0900-7510-07B9370DAF99">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>9B7DEF02-7CF8-1A16-196C-4F73EEC19235</generatorID>
@@ -40,7 +39,7 @@ INSERT INTO  {table} (cod_tipo_chamado,ds_chamado) values(2,'RECLAMACAO');]]></a
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9D58C137-4C57-D198-992B-7DFD2893915F" name="T_SGV_TIPO_CHAMADO_PK">
+<ind_PK_UK id="9D58C137-4C57-D198-992B-7DFD2893915F" name="t_sgv_tipo_chamado_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>47AF6BBE-83CC-7FF3-E9AE-39081ED68476</generatorID>

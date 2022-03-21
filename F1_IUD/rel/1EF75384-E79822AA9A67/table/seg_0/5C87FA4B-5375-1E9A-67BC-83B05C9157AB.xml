@@ -4,12 +4,11 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>25002069-05A7-92BA-FA00-AD3B20E2EF75</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_views_video</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_VIEW" id="08D907A9-AEDC-7FB1-297A-F29003D14ECB">
+<Column name="cod_view" id="08D907A9-AEDC-7FB1-297A-F29003D14ECB">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>1789A4E3-6D5E-E3C4-6C21-3E7CC6456765</generatorID>
@@ -21,7 +20,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_VIDEO" id="A9CCEAFF-8DD9-FC3E-046C-DD5839FD2D0E">
+<Column name="cod_video" id="A9CCEAFF-8DD9-FC3E-046C-DD5839FD2D0E">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>ACB14E49-4308-1AE8-48CC-DD8BAEB6603C</generatorID>
@@ -37,7 +36,7 @@
 <colAssociation fkAssociation="9A735860-72FF-FF88-69E5-E56E9E216628" referredColumn="3E3FA06E-FADD-1C8E-1A6D-D4ED7DE28BB2"/>
 </associations>
 </Column>
-<Column name="DT_VISITA" id="6B45933D-0C94-12B9-516E-5924BA11D65E">
+<Column name="dt_visita" id="6B45933D-0C94-12B9-516E-5924BA11D65E">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>6A4B49AB-3B8E-69EA-1149-4156A4A140A3</generatorID>
@@ -49,7 +48,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_CADASTRO" id="692683AA-01BA-299A-F992-E269CB461804">
+<Column name="cod_cadastro" id="692683AA-01BA-299A-F992-E269CB461804">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>84064A5E-FBEE-D85D-33DF-F116E8DB6596</generatorID>
@@ -68,7 +67,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F125D991-C38A-B979-673D-FB67D8A1A6DE" name="T_SGV_VIEWS_VIDEO_PK">
+<ind_PK_UK id="F125D991-C38A-B979-673D-FB67D8A1A6DE" name="t_sgv_views_video_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>456DCFD8-2C4B-5D16-48AD-687A757CC42F</generatorID>
@@ -80,7 +79,7 @@
 <colUsage columnID="08D907A9-AEDC-7FB1-297A-F29003D14ECB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4C590082-A48F-4DEA-39A9-B2A77E7526EC" name="T_SGV_VIDEO_PROD_FK">
+<ind_PK_UK id="4C590082-A48F-4DEA-39A9-B2A77E7526EC" name="t_sgv_video_prod_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>F4DC6CB0-8808-EA1A-D34B-15D12694888F</generatorID>
@@ -91,7 +90,7 @@
 <colUsage columnID="A9CCEAFF-8DD9-FC3E-046C-DD5839FD2D0E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FC1CE861-4A3E-C185-47CA-13D6ACBB1A3A" name="T_SGV_CLIENTE_FKv2">
+<ind_PK_UK id="FC1CE861-4A3E-C185-47CA-13D6ACBB1A3A" name="t_sgv_cliente_fkv2">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>5229388E-262C-D377-A527-0D53145FD1F8</generatorID>

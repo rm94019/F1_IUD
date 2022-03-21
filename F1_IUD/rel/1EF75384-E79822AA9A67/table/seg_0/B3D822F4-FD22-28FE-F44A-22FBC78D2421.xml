@@ -4,14 +4,13 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>0C809AC5-62A2-7DB3-1960-FBCBA5CA5D70</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_cargos</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (ds_cargo) VALUES ('ANALISTA');
 INSERT INTO  {table} (ds_cargo) VALUES ('SUPORTE');]]></afterCreate>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_CARGO" id="1C9A7E8B-E8DC-9CDB-EB18-E6878919F096">
+<Column name="cod_cargo" id="1C9A7E8B-E8DC-9CDB-EB18-E6878919F096">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>4D88B1F2-3BE3-8E1A-43C1-0A589436F039</generatorID>
@@ -25,7 +24,7 @@ INSERT INTO  {table} (ds_cargo) VALUES ('SUPORTE');]]></afterCreate>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_CARGO" id="F7EA730B-D747-5090-DF15-84D1AD9F4E58">
+<Column name="ds_cargo" id="F7EA730B-D747-5090-DF15-84D1AD9F4E58">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>6E398334-2785-20F9-AC5C-F5B57264B717</generatorID>
@@ -39,7 +38,7 @@ INSERT INTO  {table} (ds_cargo) VALUES ('SUPORTE');]]></afterCreate>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="13B3A1FF-7FC8-C65E-807A-BD4385B8C3EA" name="T_SGV_CARGOS_PK">
+<ind_PK_UK id="13B3A1FF-7FC8-C65E-807A-BD4385B8C3EA" name="t_sgv_cargos_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>FB54BB62-FBD4-DB42-C532-A2FFC0F4A901</generatorID>

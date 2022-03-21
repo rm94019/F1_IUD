@@ -4,7 +4,6 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>973BF8B6-725A-CEAD-D92B-5D01ABC4A382</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_departamento</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (ds_dp) VALUES ('TI');
 INSERT INTO  {table} (ds_dp) VALUES ('COMERCIAL');
 INSERT INTO  {table} (ds_dp) VALUES ('FINANCEIRO');]]></afterCreate>
@@ -12,7 +11,7 @@ INSERT INTO  {table} (ds_dp) VALUES ('FINANCEIRO');]]></afterCreate>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_DP" id="88280188-D86B-797D-6202-B2FF96DBFB57">
+<Column name="cod_dp" id="88280188-D86B-797D-6202-B2FF96DBFB57">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>29D404F3-7EB5-A9FF-06C6-6D180DCD2943</generatorID>
@@ -26,7 +25,7 @@ INSERT INTO  {table} (ds_dp) VALUES ('FINANCEIRO');]]></afterCreate>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_DP" id="F244F420-19B4-C5E4-C47E-73FA9AD030D1">
+<Column name="ds_dp" id="F244F420-19B4-C5E4-C47E-73FA9AD030D1">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>B92EB652-F204-0434-03E8-7D730E9B22B4</generatorID>
@@ -40,7 +39,7 @@ INSERT INTO  {table} (ds_dp) VALUES ('FINANCEIRO');]]></afterCreate>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F3869EBD-4F99-749A-C784-F7B7E855F590" name="T_SGV_DEPARTAMENTO_PK">
+<ind_PK_UK id="F3869EBD-4F99-749A-C784-F7B7E855F590" name="t_sgv_departamento_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>E7246DC3-347C-A7FF-6D99-8998A9F914A4</generatorID>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CED3AC77-2D8B-09E2-CBC8-A4D03BB8A38F" containerWithKeyObject="378623DC-7098-6B60-C5C9-6814F69D6FB1" localFKIndex="6AF3C3FF-EA65-1240-E966-CB4F7B2489D4" name="T_SGV_TIPO_CHAMADO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CED3AC77-2D8B-09E2-CBC8-A4D03BB8A38F" containerWithKeyObject="378623DC-7098-6B60-C5C9-6814F69D6FB1" localFKIndex="6AF3C3FF-EA65-1240-E966-CB4F7B2489D4" name="t_sgv_tipo_chamado_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>75BE36F0-6F94-6B73-7FE7-1A288BB87153</generatorID>
@@ -10,7 +10,7 @@
 <keyObject>9D58C137-4C57-D198-992B-7DFD2893915F</keyObject>
 <referredKeyID>9D58C137-4C57-D198-992B-7DFD2893915F</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>COD_TIPO_CHAM</refColNames>
+<refColNames>cod_tipo_cham</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

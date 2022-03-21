@@ -4,14 +4,13 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>D2694A28-1B6F-2BA4-23F1-A9F117C629E9</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_status_video</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (cod_status_video,ds_status) VALUES ('A','ATIVO');
 INSERT INTO  {table} (cod_status_video,ds_status) VALUES ('I','INATIVO');]]></afterCreate>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_STATUS_VIDEO" id="FDC630EF-95C7-2074-CBDB-D8DFF181B67E">
+<Column name="cod_status_video" id="FDC630EF-95C7-2074-CBDB-D8DFF181B67E">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>FE136A91-7349-96AD-6F9D-B65D12B5F1BB</generatorID>
@@ -23,7 +22,7 @@ INSERT INTO  {table} (cod_status_video,ds_status) VALUES ('I','INATIVO');]]></af
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DS_STATUS" id="98A046FC-0DAB-153B-F66B-1425373232CA">
+<Column name="ds_status" id="98A046FC-0DAB-153B-F66B-1425373232CA">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>26345ABC-BC84-2A49-DEA3-E797A016ECEF</generatorID>
@@ -37,7 +36,7 @@ INSERT INTO  {table} (cod_status_video,ds_status) VALUES ('I','INATIVO');]]></af
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3BE3F7DF-3F9A-FE96-9A51-7C9C9F4392DC" name="T_SGV_STATUS_VIDEO_PK">
+<ind_PK_UK id="3BE3F7DF-3F9A-FE96-9A51-7C9C9F4392DC" name="t_sgv_status_video_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>AAF5723B-8078-3EA0-AFCC-622F0A6AF531</generatorID>

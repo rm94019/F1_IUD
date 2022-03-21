@@ -4,12 +4,11 @@
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>A81868F8-9299-08EE-B424-0B645A700D42</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<ordsAlias>t_iud_chamado</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="COD_CHAMADO" id="5B4B221B-398B-602A-209A-DD040E95D11D">
+<Column name="cod_chamado" id="5B4B221B-398B-602A-209A-DD040E95D11D">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>86ECBF1A-4F98-249C-B9C7-3AC6B1D7189B</generatorID>
@@ -21,7 +20,7 @@
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_CAD_FUNCIONARIO" id="48FA7757-8F46-A50A-5517-A017EC6D62A6">
+<Column name="cod_cad_funcionario" id="48FA7757-8F46-A50A-5517-A017EC6D62A6">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>83ED2A84-4D77-673C-9023-7CE8601C6850</generatorID>
@@ -37,7 +36,7 @@
 <colAssociation fkAssociation="62CC2983-EBAD-987B-F740-70335053586E" referredColumn="13053069-482F-55F1-CB7B-A15704913D36"/>
 </associations>
 </Column>
-<Column name="COD_CAD_CLIENTE" id="900F22B3-EE8C-EB4C-B79D-9E9B4784D085">
+<Column name="cod_cad_cliente" id="900F22B3-EE8C-EB4C-B79D-9E9B4784D085">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>DE060EA7-2BB9-3101-6702-503B48800BD6</generatorID>
@@ -53,7 +52,7 @@
 <colAssociation fkAssociation="2A98A28C-5846-8CA4-D0CE-6AB8B7E38268" referredColumn="9D235224-E7BA-C078-A4F2-18E6DCC2584E"/>
 </associations>
 </Column>
-<Column name="TXT_CHAMADO" id="F81539D0-E94C-28D3-839E-2E93239A9166">
+<Column name="txt_chamado" id="F81539D0-E94C-28D3-839E-2E93239A9166">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>8E2C36F4-60D0-3373-5FBE-14114032A530</generatorID>
@@ -65,7 +64,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_ABERTURA" id="C4246C7C-A0C5-5314-4275-D852A8BC6743">
+<Column name="dt_abertura" id="C4246C7C-A0C5-5314-4275-D852A8BC6743">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>DD152BD1-2ECF-0E1C-F396-0190BF595A2C</generatorID>
@@ -76,7 +75,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DT_FECHAMENTO" id="AAB3910B-8E1A-B9DC-6614-3B9590A4D2AB">
+<Column name="dt_fechamento" id="AAB3910B-8E1A-B9DC-6614-3B9590A4D2AB">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>560B03F0-FC92-6439-CC46-5FD295413C9C</generatorID>
@@ -88,7 +87,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="QT_HORAS" id="FBAE2A4A-EA36-1FB1-C83B-B4B4C71E2A11">
+<Column name="qt_horas" id="FBAE2A4A-EA36-1FB1-C83B-B4B4C71E2A11">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>3D093C54-784E-A15E-46EC-3108343A3A51</generatorID>
@@ -100,7 +99,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COD_TIPO_CHAM" id="B440099C-8024-5A1A-9638-FAADF4C48048">
+<Column name="cod_tipo_cham" id="B440099C-8024-5A1A-9638-FAADF4C48048">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>F1A415AC-A3D6-8B9B-6C32-F666ACB8B9BE</generatorID>
@@ -116,7 +115,7 @@
 <colAssociation fkAssociation="CED3AC77-2D8B-09E2-CBC8-A4D03BB8A38F" referredColumn="F74AAE39-8CD1-7788-8231-1E0CDF3956A0"/>
 </associations>
 </Column>
-<Column name="COD_ST_CHAMADO" id="F2542C6B-1474-B431-7601-595D3DF1E02B">
+<Column name="cod_st_chamado" id="F2542C6B-1474-B431-7601-595D3DF1E02B">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>C5766480-09A2-0020-6A5B-65CA1A94C970</generatorID>
@@ -132,7 +131,7 @@
 <colAssociation fkAssociation="AAD3FE2C-7212-F030-A63A-8CDBD30BC872" referredColumn="D405633B-1ED1-C794-224A-337015A4175A"/>
 </associations>
 </Column>
-<Column name="COD_PRODUTO" id="3D9CD0AE-9D0C-4C74-0990-42571F197BCC">
+<Column name="cod_produto" id="3D9CD0AE-9D0C-4C74-0990-42571F197BCC">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>DD46D041-C8AD-FB4C-6DFC-9FC43F112571</generatorID>
@@ -150,7 +149,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6CB394A0-12FC-534A-8E54-B4BE93FD1C1F" name="T_SGV_CHAMADO_PK">
+<ind_PK_UK id="6CB394A0-12FC-534A-8E54-B4BE93FD1C1F" name="t_sgv_chamado_pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>4944E8A6-66BF-5E6D-2A04-5C5B0E089DC0</generatorID>
@@ -164,7 +163,7 @@
 <colUsage columnID="900F22B3-EE8C-EB4C-B79D-9E9B4784D085"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6AF3C3FF-EA65-1240-E966-CB4F7B2489D4" name="T_SGV_TIPO_CHAMADO_FK">
+<ind_PK_UK id="6AF3C3FF-EA65-1240-E966-CB4F7B2489D4" name="t_sgv_tipo_chamado_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>75BE36F0-6F94-6B73-7FE7-1A288BB87153</generatorID>
@@ -175,7 +174,7 @@
 <colUsage columnID="B440099C-8024-5A1A-9638-FAADF4C48048"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D16AB86F-F427-CCD2-914D-F5F77CEFE639" name="T_SGV_CLIENTE_FK">
+<ind_PK_UK id="D16AB86F-F427-CCD2-914D-F5F77CEFE639" name="t_sgv_cliente_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>EBADC0D6-21B1-BA45-901D-E8154A12E7EE</generatorID>
@@ -186,7 +185,7 @@
 <colUsage columnID="900F22B3-EE8C-EB4C-B79D-9E9B4784D085"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B948D650-3A98-139B-ED26-EB10C7C21066" name="T_SGV_STATUS_CHAM_FK">
+<ind_PK_UK id="B948D650-3A98-139B-ED26-EB10C7C21066" name="t_sgv_status_cham_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>228ACAE5-F3BF-4EC3-7996-5FC00DC0A2CA</generatorID>
@@ -197,7 +196,7 @@
 <colUsage columnID="F2542C6B-1474-B431-7601-595D3DF1E02B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="77DECD3D-7AD2-C583-B210-4E596FF2CB3A" name="T_SGV_FUNCIONARIO_FK">
+<ind_PK_UK id="77DECD3D-7AD2-C583-B210-4E596FF2CB3A" name="t_sgv_funcionario_fk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>D8FDCEB3-4E86-E494-8EA1-521A03D21F34</generatorID>
@@ -208,7 +207,7 @@
 <colUsage columnID="48FA7757-8F46-A50A-5517-A017EC6D62A6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E26BE02D-5FF7-196A-181D-AF0CB4F5EF78" name="T_SGV_PRODUTO_FKv2">
+<ind_PK_UK id="E26BE02D-5FF7-196A-181D-AF0CB4F5EF78" name="t_sgv_produto_fkv2">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>2C7DDF17-7289-3F5E-C99C-EE016B1BCFA1</generatorID>

@@ -5,6 +5,7 @@
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +16,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="COD_VIEW" id="1789A4E3-6D5E-E3C4-6C21-3E7CC6456765">
+<Attribute name="cod_view" id="1789A4E3-6D5E-E3C4-6C21-3E7CC6456765">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 23:05:42 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -28,13 +30,14 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_VIDEO" id="ACB14E49-4308-1AE8-48CC-DD8BAEB6603C">
+<Attribute name="cod_video" id="ACB14E49-4308-1AE8-48CC-DD8BAEB6603C">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 22:59:46 UTC</createdTime>
 <generatorID>F4DC6CB0-8808-EA1A-D34B-15D12694888F</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <referedAttribute>CFF6D3BD-CB34-6885-6AEC-D492328AE2ED</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,12 +46,13 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DT_VISITA" id="6A4B49AB-3B8E-69EA-1149-4156A4A140A3">
+<Attribute name="dt_visita" id="6A4B49AB-3B8E-69EA-1149-4156A4A140A3">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 23:05:48 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,13 +60,14 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="COD_CADASTRO" id="84064A5E-FBEE-D85D-33DF-F116E8DB6596">
+<Attribute name="cod_cadastro" id="84064A5E-FBEE-D85D-33DF-F116E8DB6596">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:40:33 UTC</createdTime>
 <generatorID>5229388E-262C-D377-A527-0D53145FD1F8</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>FE249594-A58B-457A-F4B2-A760CA4CE743</referedAttribute>
@@ -74,12 +79,13 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="456DCFD8-2C4B-5D16-48AD-687A757CC42F" name="T_IUD_VIEWS_VIDEO PK">
+<identifier id="456DCFD8-2C4B-5D16-48AD-687A757CC42F" name="t_iud_views_video pk">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 19:53:07 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
+<item key="215A8EE6-3F9F-AC90-A4C0-23FEAFFC8DC7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
