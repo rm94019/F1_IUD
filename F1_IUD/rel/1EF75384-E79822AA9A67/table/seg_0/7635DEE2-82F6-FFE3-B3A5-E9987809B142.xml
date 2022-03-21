@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7635DEE2-82F6-FFE3-B3A5-E9987809B142" name="T_IUD_CADASTRO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7635DEE2-82F6-FFE3-B3A5-E9987809B142" name="T_SGV_CADASTRO">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>EDE5317D-706B-EC9A-5C50-16DA5E2A23A6</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<ordsAlias>t_iud_cadastro</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -69,7 +70,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9A1C011B-0716-6224-26F4-6BA0805DC747" name="T_IUD_CADASTRO_PK">
+<ind_PK_UK id="9A1C011B-0716-6224-26F4-6BA0805DC747" name="T_SGV_CADASTRO_PK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>AEFB541B-D6DB-A042-CC97-A9532C7F3018</generatorID>

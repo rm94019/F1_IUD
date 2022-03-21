@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E7B56BE8-2357-6430-47EF-9AD850C914EE" containerWithKeyObject="AE4690E8-A789-D650-B9A8-4306827DA90F" localFKIndex="A3427C4E-6A4C-0F5D-AB70-4BDBB6FF62DA" name="T_IUD_STATUS_PROD_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E7B56BE8-2357-6430-47EF-9AD850C914EE" containerWithKeyObject="AE4690E8-A789-D650-B9A8-4306827DA90F" localFKIndex="A3427C4E-6A4C-0F5D-AB70-4BDBB6FF62DA" name="T_SGV_STATUS_PROD_FK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>2641F651-3346-C8D5-2435-1BD8E997640D</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<referredTableLongName>T_IUD_STATUS_PROD</referredTableLongName>
+<referredTableLongName>T_SGV_STATUS_PROD</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B3B29D08-FD0A-3A75-CDCA-FBA9B015C941</referredTableID>
 <keyObject>48965761-FDC1-00C1-0491-6FCAE6D54E75</keyObject>

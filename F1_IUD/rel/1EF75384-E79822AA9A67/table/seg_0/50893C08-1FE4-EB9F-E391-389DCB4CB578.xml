@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50893C08-1FE4-EB9F-E391-389DCB4CB578" name="T_IUD_STATUS_VIDEO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50893C08-1FE4-EB9F-E391-389DCB4CB578" name="T_SGV_STATUS_VIDEO">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>D2694A28-1B6F-2BA4-23F1-A9F117C629E9</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<ordsAlias>t_iud_status_video</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (cod_status_video,ds_status) VALUES ('A','ATIVO');
 INSERT INTO  {table} (cod_status_video,ds_status) VALUES ('I','INATIVO');]]></afterCreate>
 <allowColumnReorder>false</allowColumnReorder>
@@ -36,7 +37,7 @@ INSERT INTO  {table} (cod_status_video,ds_status) VALUES ('I','INATIVO');]]></af
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3BE3F7DF-3F9A-FE96-9A51-7C9C9F4392DC" name="T_IUD_STATUS_VIDEO_PK">
+<ind_PK_UK id="3BE3F7DF-3F9A-FE96-9A51-7C9C9F4392DC" name="T_SGV_STATUS_VIDEO_PK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>AAF5723B-8078-3EA0-AFCC-622F0A6AF531</generatorID>

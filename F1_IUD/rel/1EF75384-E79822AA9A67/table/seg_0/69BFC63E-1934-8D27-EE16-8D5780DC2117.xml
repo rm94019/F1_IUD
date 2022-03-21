@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69BFC63E-1934-8D27-EE16-8D5780DC2117" name="T_IUD_FUNCIONARIO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69BFC63E-1934-8D27-EE16-8D5780DC2117" name="T_SGV_FUNCIONARIO">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>2DA7959E-B1F7-5129-6EF7-598C91351FCB</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<ordsAlias>t_iud_funcionario</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -17,7 +18,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -33,7 +34,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -49,7 +50,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -58,7 +59,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BA924BA1-7904-0355-15F7-3C097A09A1DF" name="T_IUD_FUNCIONARIO_PK">
+<ind_PK_UK id="BA924BA1-7904-0355-15F7-3C097A09A1DF" name="T_SGV_FUNCIONARIO_PK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>C4267A75-145B-E120-653F-40A468925AF5</generatorID>
@@ -70,7 +71,7 @@
 <colUsage columnID="13053069-482F-55F1-CB7B-A15704913D36"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="197683AC-7008-8FDA-6419-E5BCD886BA4F" name="T_IUD_CARGOS_FK">
+<ind_PK_UK id="197683AC-7008-8FDA-6419-E5BCD886BA4F" name="T_SGV_CARGOS_FK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>FB34BC0F-133E-7D54-C487-D182BE69F377</generatorID>
@@ -81,7 +82,7 @@
 <colUsage columnID="C9B50708-D3EF-7F5B-FECE-4104DC0DB969"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5706AD37-BB09-D07C-E043-2C9918C50A46" name="T_IUD_CADASTRO_FKv2">
+<ind_PK_UK id="5706AD37-BB09-D07C-E043-2C9918C50A46" name="T_SGV_CADASTRO_FKv2">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>D297405F-CFDC-AF47-3637-90EAEC0FEAEC</generatorID>
@@ -92,7 +93,7 @@
 <colUsage columnID="13053069-482F-55F1-CB7B-A15704913D36"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FFEE3E01-5CF3-7B38-31A8-D23BB7CD396B" name="T_IUD_DEPARTAMENTO_FK">
+<ind_PK_UK id="FFEE3E01-5CF3-7B38-31A8-D23BB7CD396B" name="T_SGV_DEPARTAMENTO_FK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>D9355871-EB32-41FD-1FA4-055395E8A3A7</generatorID>

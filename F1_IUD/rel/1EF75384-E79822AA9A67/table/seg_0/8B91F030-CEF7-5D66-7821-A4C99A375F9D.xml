@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B91F030-CEF7-5D66-7821-A4C99A375F9D" name="T_IUD_TIPO_CHAMADO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B91F030-CEF7-5D66-7821-A4C99A375F9D" name="T_SGV_TIPO_CHAMADO">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>2B8943AE-9DD7-EE29-9B88-230B2A03BC1B</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<ordsAlias>t_iud_tipo_chamado</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (cod_tipo_chamado,ds_chamado) values(1,'SUGESTAO');
 INSERT INTO  {table} (cod_tipo_chamado,ds_chamado) values(2,'RECLAMACAO');]]></afterCreate>
 <allowColumnReorder>false</allowColumnReorder>
@@ -39,7 +40,7 @@ INSERT INTO  {table} (cod_tipo_chamado,ds_chamado) values(2,'RECLAMACAO');]]></a
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9D58C137-4C57-D198-992B-7DFD2893915F" name="T_IUD_TIPO_CHAMADO_PK">
+<ind_PK_UK id="9D58C137-4C57-D198-992B-7DFD2893915F" name="T_SGV_TIPO_CHAMADO_PK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>47AF6BBE-83CC-7FF3-E9AE-39081ED68476</generatorID>

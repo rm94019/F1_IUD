@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E83189C4-1AC1-4A5B-735E-6B2BE23F867B" name="T_IUD_STATUS_CHAM">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E83189C4-1AC1-4A5B-735E-6B2BE23F867B" name="T_SGV_STATUS_CHAM">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>8810D8AD-C35D-2F3F-A775-F53B6B0531CB</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<ordsAlias>t_iud_status_cham</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (cod_st_chamado,ds_st_chamado) values('A','ABERTO');
 INSERT INTO  {table} (cod_st_chamado,ds_st_chamado) values('E','EM ATENDIMENTO');
 INSERT INTO  {table} (cod_st_chamado,ds_st_chamado) values('C','CANCELADO');
@@ -41,7 +42,7 @@ INSERT INTO  {table} (cod_st_chamado,ds_st_chamado) values('X','FECHADO COM INSA
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A486F20A-8493-6289-5B90-550A50035934" name="T_IUD_STATUS_CHAM_PK">
+<ind_PK_UK id="A486F20A-8493-6289-5B90-550A50035934" name="T_SGV_STATUS_CHAM_PK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>BC1CDF98-1D60-3F9F-4C4C-35B2497EE21C</generatorID>

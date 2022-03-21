@@ -1,13 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B8943AE-9DD7-EE29-9B88-230B2A03BC1B" name="T_IUD_TIPO_CHAMADO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B8943AE-9DD7-EE29-9B88-230B2A03BC1B" name="T_SGV_TIPO_CHAMADO">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 15:39:01 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="B40B10EA-C920-ACBF-F0C0-BC4A81311436" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -23,10 +20,7 @@
 <createdTime>2022-03-12 15:39:16 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="B40B10EA-C920-ACBF-F0C0-BC4A81311436" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,10 +33,7 @@
 <createdTime>2022-03-12 15:39:56 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="B40B10EA-C920-ACBF-F0C0-BC4A81311436" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,10 +49,7 @@
 <createdTime>2022-03-12 15:39:42 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
-<item key="B40B10EA-C920-ACBF-F0C0-BC4A81311436" value="true"/>
-<item key="8BA2B0D2-736C-979D-B497-1E7B60604F73" value="true"/>
-<item key="883D2AA3-C906-F323-0729-C316F9DF1E49" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

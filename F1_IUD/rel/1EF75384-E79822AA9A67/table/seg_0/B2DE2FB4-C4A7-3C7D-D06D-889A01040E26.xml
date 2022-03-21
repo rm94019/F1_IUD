@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2DE2FB4-C4A7-3C7D-D06D-889A01040E26" name="T_IUD_CATEGORIA_VIDEO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2DE2FB4-C4A7-3C7D-D06D-889A01040E26" name="T_SGV_CATEGORIA_VIDEO">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>7513725C-D82D-7CCB-EAE0-F56FE35C8CF7</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<ordsAlias>t_iud_categoria_video</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (ds_categoria,dt_inicio,cod_status_cat) VALUES ('Instalação do produto',CURRENT_TIMESTAMP,'A');
 INSERT INTO  {table} (ds_categoria,dt_inicio,cod_status_cat) VALUES ('Uso no cotidiano',CURRENT_TIMESTAMP,'A'); 
 INSERT INTO  {table} (ds_categoria,dt_inicio,cod_status_cat) VALUES ('Comercial com personalidadeo',CURRENT_TIMESTAMP,'A'); ]]></afterCreate>
@@ -40,7 +41,7 @@ INSERT INTO  {table} (ds_categoria,dt_inicio,cod_status_cat) VALUES ('Comercial 
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="90B05207-A813-9FDE-12F5-80BDAF64075D" name="T_IUD_CATEGORIA_VIDEO_PK">
+<ind_PK_UK id="90B05207-A813-9FDE-12F5-80BDAF64075D" name="T_SGV_CATEGORIA_VIDEO_PK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>E4226A22-FA56-2E4D-D1B3-04E0DF4ED937</generatorID>

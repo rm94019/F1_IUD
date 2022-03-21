@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E796982-9099-3838-E846-A66FD27E9C94" name="T_IUD_CATEGORIA_PROD">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E796982-9099-3838-E846-A66FD27E9C94" name="T_SGV_CATEGORIA_PROD">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>3D241A12-C127-F700-8A52-086634D0C166</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<ordsAlias>t_iud_categoria_prod</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('INFORMATICA',CURRENT_TIMESTAMP,'A');
 INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('ELETRONICO',CURRENT_TIMESTAMP,'A');]]></afterCreate>
 <allowColumnReorder>false</allowColumnReorder>
@@ -68,7 +69,7 @@ INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('ELETRONICO
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -77,7 +78,7 @@ INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('ELETRONICO
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="80272D1F-FC32-A033-29DB-25AFFB0D2D66" name="T_IUD_CATEGORIA_PROD_PK">
+<ind_PK_UK id="80272D1F-FC32-A033-29DB-25AFFB0D2D66" name="T_SGV_CATEGORIA_PROD_PK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>8A49AE51-DF33-2DB9-B6E7-2BB898DDE1CF</generatorID>
@@ -89,7 +90,7 @@ INSERT INTO {table} (DESC_CAT,DT_INICIO,COD_STATUS_CATEGORIA) VALUES('ELETRONICO
 <colUsage columnID="6F7A09FC-95CF-E312-8028-8288D1B7CF5C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8D9E08F9-798A-51C6-C1DC-FB09449B0097" name="T_IUD_STATUS_CAT_FK">
+<ind_PK_UK id="8D9E08F9-798A-51C6-C1DC-FB09449B0097" name="T_SGV_STATUS_CAT_FK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>8BFA6B0A-3700-667F-13FA-1F9F655FD37A</generatorID>

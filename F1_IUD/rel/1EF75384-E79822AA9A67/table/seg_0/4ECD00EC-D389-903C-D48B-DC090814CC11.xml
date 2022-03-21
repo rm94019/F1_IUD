@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4ECD00EC-D389-903C-D48B-DC090814CC11" name="T_IUD_STATUS_CAT">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4ECD00EC-D389-903C-D48B-DC090814CC11" name="T_SGV_STATUS_CAT">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>2F57F1F4-A6F0-408A-A387-1175BCB50A6F</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<ordsAlias>t_iud_status_cat</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -35,7 +36,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1B91B724-4F22-52BD-7B55-5D3A17E4658E" name="T_IUD_STATUS_CAT_PK">
+<ind_PK_UK id="1B91B724-4F22-52BD-7B55-5D3A17E4658E" name="T_SGV_STATUS_CAT_PK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>72C58C4F-B2D0-637D-D23B-8D9C690ED827</generatorID>

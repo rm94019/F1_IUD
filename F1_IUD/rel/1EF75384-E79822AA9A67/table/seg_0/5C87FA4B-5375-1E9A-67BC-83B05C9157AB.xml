@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C87FA4B-5375-1E9A-67BC-83B05C9157AB" name="T_IUD_VIEWS_VIDEO">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C87FA4B-5375-1E9A-67BC-83B05C9157AB" name="T_SGV_VIEWS_VIDEO">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>25002069-05A7-92BA-FA00-AD3B20E2EF75</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<ordsAlias>t_iud_views_video</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -29,7 +30,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -58,7 +59,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -67,7 +68,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F125D991-C38A-B979-673D-FB67D8A1A6DE" name="T_IUD_VIEWS_VIDEO_PK">
+<ind_PK_UK id="F125D991-C38A-B979-673D-FB67D8A1A6DE" name="T_SGV_VIEWS_VIDEO_PK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>456DCFD8-2C4B-5D16-48AD-687A757CC42F</generatorID>
@@ -79,7 +80,7 @@
 <colUsage columnID="08D907A9-AEDC-7FB1-297A-F29003D14ECB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4C590082-A48F-4DEA-39A9-B2A77E7526EC" name="T_IUD_VIDEO_PROD_FK">
+<ind_PK_UK id="4C590082-A48F-4DEA-39A9-B2A77E7526EC" name="T_SGV_VIDEO_PROD_FK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>F4DC6CB0-8808-EA1A-D34B-15D12694888F</generatorID>
@@ -90,7 +91,7 @@
 <colUsage columnID="A9CCEAFF-8DD9-FC3E-046C-DD5839FD2D0E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FC1CE861-4A3E-C185-47CA-13D6ACBB1A3A" name="T_IUD_CLIENTE_FKv2">
+<ind_PK_UK id="FC1CE861-4A3E-C185-47CA-13D6ACBB1A3A" name="T_SGV_CLIENTE_FKv2">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>5229388E-262C-D377-A527-0D53145FD1F8</generatorID>

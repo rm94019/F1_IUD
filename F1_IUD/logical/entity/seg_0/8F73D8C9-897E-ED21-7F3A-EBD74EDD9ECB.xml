@@ -1,11 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F73D8C9-897E-ED21-7F3A-EBD74EDD9ECB" name="T_IUD_STATUS_PROD">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F73D8C9-897E-ED21-7F3A-EBD74EDD9ECB" name="T_SGV_STATUS_PROD">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-12 16:14:38 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,8 +21,7 @@
 <commentInRDBMS><![CDATA[I: inativo, P: prospeccao, A: Ativo]]></commentInRDBMS>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -37,8 +35,7 @@
 <commentInRDBMS><![CDATA[I: inativo, P: prospeccao, A: Ativo]]></commentInRDBMS>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,8 +50,7 @@
 <createdTime>2022-03-12 16:14:58 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
 <engineerTo>
-<item key="EE775468-92C1-A9D2-287F-71725D90E09E" value="true"/>
-<item key="CBABE30C-8D60-BC8E-6438-5D1939103565" value="true"/>
+<item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

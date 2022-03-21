@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3D822F4-FD22-28FE-F44A-22FBC78D2421" name="T_IUD_CARGOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3D822F4-FD22-28FE-F44A-22FBC78D2421" name="T_SGV_CARGOS">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>0C809AC5-62A2-7DB3-1960-FBCBA5CA5D70</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<ordsAlias>t_iud_cargos</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (ds_cargo) VALUES ('ANALISTA');
 INSERT INTO  {table} (ds_cargo) VALUES ('SUPORTE');]]></afterCreate>
 <allowColumnReorder>false</allowColumnReorder>
@@ -38,7 +39,7 @@ INSERT INTO  {table} (ds_cargo) VALUES ('SUPORTE');]]></afterCreate>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="13B3A1FF-7FC8-C65E-807A-BD4385B8C3EA" name="T_IUD_CARGOS_PK">
+<ind_PK_UK id="13B3A1FF-7FC8-C65E-807A-BD4385B8C3EA" name="T_SGV_CARGOS_PK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>FB54BB62-FBD4-DB42-C532-A2FFC0F4A901</generatorID>

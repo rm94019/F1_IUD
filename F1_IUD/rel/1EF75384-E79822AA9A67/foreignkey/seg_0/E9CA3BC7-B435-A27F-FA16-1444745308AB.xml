@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9CA3BC7-B435-A27F-FA16-1444745308AB" containerWithKeyObject="FCCF4ECC-A35A-F28F-5F56-25946CA73CEC" localFKIndex="2367F58C-B7B5-479E-BBDE-EEB1C905A319" name="T_IUD_STATUS_VIDEO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E9CA3BC7-B435-A27F-FA16-1444745308AB" containerWithKeyObject="FCCF4ECC-A35A-F28F-5F56-25946CA73CEC" localFKIndex="2367F58C-B7B5-479E-BBDE-EEB1C905A319" name="T_SGV_STATUS_VIDEO_FK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>89A66B90-8C9D-FA7A-BE8F-4CCB5AA96964</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<referredTableLongName>T_IUD_STATUS_VIDEO</referredTableLongName>
+<referredTableLongName>T_SGV_STATUS_VIDEO</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>50893C08-1FE4-EB9F-E391-389DCB4CB578</referredTableID>
 <keyObject>3BE3F7DF-3F9A-FE96-9A51-7C9C9F4392DC</keyObject>

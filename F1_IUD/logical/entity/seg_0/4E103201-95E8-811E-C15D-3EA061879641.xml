@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E103201-95E8-811E-C15D-3EA061879641" name="T_IUD_PRODUTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E103201-95E8-811E-C15D-3EA061879641" name="T_SGV_PRODUTO">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-11 21:10:06 UTC</createdTime>
 <ownerDesignName>F1_IUD</ownerDesignName>
@@ -93,10 +93,11 @@
 <item key="1EF75384-F47F-35CA-D460-E79822AA9A67" value="true"/>
 </engineerTo>
 <referedAttribute>29897DB6-822B-D680-5BD2-E10BA2B40F36</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="COD_STATUS_PROD" id="162A01F9-CD14-6469-3B1E-C3E5908170D7">
 <createdBy>gamer</createdBy>
@@ -111,7 +112,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

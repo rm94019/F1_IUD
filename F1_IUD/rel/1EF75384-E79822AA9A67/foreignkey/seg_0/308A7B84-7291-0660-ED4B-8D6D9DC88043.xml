@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="308A7B84-7291-0660-ED4B-8D6D9DC88043" containerWithKeyObject="69BFC63E-1934-8D27-EE16-8D5780DC2117" localFKIndex="197683AC-7008-8FDA-6419-E5BCD886BA4F" name="T_IUD_CARGOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="308A7B84-7291-0660-ED4B-8D6D9DC88043" containerWithKeyObject="69BFC63E-1934-8D27-EE16-8D5780DC2117" localFKIndex="197683AC-7008-8FDA-6419-E5BCD886BA4F" name="T_SGV_CARGOS_FK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>FB34BC0F-133E-7D54-C487-D182BE69F377</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
-<referredTableLongName>T_IUD_CARGOS</referredTableLongName>
+<referredTableLongName>T_SGV_CARGOS</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>B3D822F4-FD22-28FE-F44A-22FBC78D2421</referredTableID>
 <keyObject>13B3A1FF-7FC8-C65E-807A-BD4385B8C3EA</keyObject>

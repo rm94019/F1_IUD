@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C57CA27-0A52-EDE9-2D69-B9660920B069" name="T_IUD_TIPO_CLIENTE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C57CA27-0A52-EDE9-2D69-B9660920B069" name="T_SGV_TIPO_CLIENTE">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>DCECBF91-6A04-F4F8-AC76-6D78F15EC433</generatorID>
 <ownerDesignName>F1_IUD</ownerDesignName>
+<ordsAlias>t_iud_tipo_cliente</ordsAlias>
 <afterCreate><![CDATA[INSERT INTO  {table} (ds_tipo) VALUES ('PF');
 INSERT INTO  {table} (ds_tipo) VALUES ('PJ');
 ]]></afterCreate>
@@ -39,7 +40,7 @@ INSERT INTO  {table} (ds_tipo) VALUES ('PJ');
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="00318A50-975F-E8C5-4AE2-2A0C411292EF" name="T_IUD_TIPO_CLIENTE_PK">
+<ind_PK_UK id="00318A50-975F-E8C5-4AE2-2A0C411292EF" name="T_SGV_TIPO_CLIENTE_PK">
 <createdBy>gamer</createdBy>
 <createdTime>2022-03-16 11:41:47 UTC</createdTime>
 <generatorID>3E22203E-29EE-1B35-50ED-D89B71D30467</generatorID>
